@@ -8,10 +8,10 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Chris Kreucher / Chris Kreucher's Home Page"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
+name                     : &name "Chris Kreucher"
+description              : &description "Chris Kreucher's Home page"
 url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
@@ -23,10 +23,9 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Chris Kreucher"
-  pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
   location         : "Ann Arbor, Michigan"
-  employer         : "Red Brick University"
+  employer         : "KBR"
   uri              : # URL
   email            : "ckreuche@umich.edu" 
 
