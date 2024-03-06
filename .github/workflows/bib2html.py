@@ -10,7 +10,7 @@ import re
 #todo: incorporate different collection types rather than a catch all publications, requires other changes to template
 publist = {
     "proceeding": {
-        "file" : ".github/workflows/Kreucher.bib",
+        "file" : "/home/runner/work/chriskreucher.github.io/chriskreucher.github.io/.github/workflows//Kreucher.bib",
         "venuekey": "article",
         "venue-pretext": "In the proceedings of ",
         "collection" : {"name":"publications",
