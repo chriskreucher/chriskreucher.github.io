@@ -1,0 +1,19 @@
+# This is a basic workflow that is manually triggered
+
+name: Initial simple python test
+
+# Controls when the action will run. Workflow runs when manually triggered using the UI
+# or API.
+on:
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+build:
+  runs-on: ubuntu-latest
+  
+  steps:
+    - uses: actions/checkout@v3
+
+    - name: Run a Python script
+    run: python .github/workflows/example.py
+    
