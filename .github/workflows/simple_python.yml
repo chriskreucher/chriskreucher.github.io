@@ -20,7 +20,7 @@ jobs:
       with:
         python-version: '3.x'
     - name: Install dependencies
-      run: python -m pip install --upgrade pip pybtex
+      run: python -m pip install --upgrade pip pybtex setuptools 
     
     - name: Run a Python script
       run: python .github/workflows/example2.py
