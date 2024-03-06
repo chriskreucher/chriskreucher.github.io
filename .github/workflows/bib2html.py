@@ -10,7 +10,7 @@ import re
 #todo: incorporate different collection types rather than a catch all publications, requires other changes to template
 publist = {
     "proceeding": {
-        "file" : "/home/runner/work/chriskreucher.github.io/chriskreucher.github.io/.github/workflows/kreucher.bib",
+        "file" : ".github/workflows//kreucher.bib",
         "venuekey": "article",
         "venue-pretext": "In the proceedings of ",
         "collection" : {"name":"publications",
@@ -30,18 +30,9 @@ def html_escape(text):
     return "".join(html_escape_table.get(c,c) for c in text)
 
 def main():
-  print("Hello, actions v4 !")
-
-  print("1 " + str(os.path.exists('kreucher.bib')));
-  print("2 " + str(os.path.exists('./kreucher.bib')));
-  for pubsource in publist:
-      print("3 " + str(os.path.exists(publist[pubsource]["file"])));    
-  print("4 " + str(os.path.exists('.github/workflows//kreucher.bib')));    
-  print("5 " + str(os.path.exists('chriskreucher.github.io/.github/workflows/kreucher.bib')));   
-  print("6 " + str(os.path.exists('./chriskreucher.github.io/.github/workflows/kreucher.bib')));    
-  print("7 " + str(os.path.exists('./.github/workflows/kreucher.bib')));    
-    
-
+  print("In bib2html.py")
+  
+  # files work : "/home/runner/work/chriskreucher.github.io/chriskreucher.github.io/.github/workflows/kreucher.bib", '.github/workflows//kreucher.bib')
     
   for pubsource in publist:
     parser = bibtex.Parser()
