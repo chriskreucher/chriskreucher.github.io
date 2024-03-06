@@ -23,7 +23,7 @@ author:
   # Biographic information
   avatar           : "images/Kreucher.jpg"
   name             : "Chris Kreucher"
-  bio              : "KBR Senior Techncial Fellow. PhD Electrical Engineering from the University of Michigan. My research interests include multisensor fusion, nonlinear filtering, information theory, multitarget tracking, and sensor management."
+  bio              : "PhD Electrical Engineering from the University of Michigan. KBR Senior Techncial Fellow." #My research interests include multisensor fusion, nonlinear filtering, information theory, multitarget tracking, and sensor management."
   location         : "Ann Arbor, Michigan"
   employer         : "KBR"
   uri              : # URL
@@ -56,7 +56,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "https://www.linkedin.com/in/chris-kreucher-3200021b3/"
+  linkedin         : "chris-kreucher-3200021b3/"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
