@@ -34,7 +34,7 @@ def main():
 
   for pubsource in publist:
     parser = bibtex.Parser()
-    print ('file is ' + publist[pubsource]["file"] + '\n')
+    print ('\n\n\n\nfile is ' + publist[pubsource]["file"] + '\n\n\n\n\n')
     bibdata = parser.parse_file(publist[pubsource]["file"])
 
     #loop through the individual references in a given bibtex file
