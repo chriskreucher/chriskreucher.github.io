@@ -21,7 +21,7 @@ repository               : "https://chriskreucher.github.io/"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "images\Kreucher.jpg"
+  avatar           : "images/Kreucher.jpg"
   name             : "Chris Kreucher"
   bio              : "KBR Senior Techncial Fellow. PhD Electrical Engineering from the University of Michigan. My research interests include multisensor fusion, nonlinear filtering, information theory, multitarget tracking, and sensor management."
   location         : "Ann Arbor, Michigan"
