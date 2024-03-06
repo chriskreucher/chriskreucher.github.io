@@ -10,7 +10,7 @@ import re
 #todo: incorporate different collection types rather than a catch all publications, requires other changes to template
 publist = {
     "proceeding": {
-        "file" : "/home/runner/work/chriskreucher.github.io/chriskreucher.github.io/.github/workflows//Kreucher.bib",
+        "file" : "/home/runner/work/chriskreucher.github.io/chriskreucher.github.io/.github/workflows/kreucher.bib",
         "venuekey": "article",
         "venue-pretext": "In the proceedings of ",
         "collection" : {"name":"publications",
@@ -32,6 +32,16 @@ def html_escape(text):
 def main():
   print("Hello, actions v4 !")
 
+  print("1 " + os.path.exists('kreucher.bib'));
+  print("2 " + os.path.exists('./kreucher.bib'));
+  print("3 " + os.path.exists(publist[pubsource]["file"]));    
+  print("4 " + os.path.exists('.github/workflows//kreucher.bib'));    
+  print("5 " + os.path.exists('chriskreucher.github.io/.github/workflows/kreucher.bib'));    
+  print("6 " + os.path.exists('./chriskreucher.github.io/.github/workflows/kreucher.bib'));    
+  print("7 " + os.path.exists('./.github/workflows/kreucher.bib'));    
+    
+
+    
   for pubsource in publist:
     parser = bibtex.Parser()
     print ('\n\n\n\nfile is ' + publist[pubsource]["file"] + '\n\n\n\n\n')
