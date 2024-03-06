@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Chris Kreucher / Chris Kreucher's Home Page"
+title                    : "Chris Kreucher's Home Page"
 title_separator          : "-"
 name                     : &name "Chris Kreucher"
 description              : &description "Chris Kreucher's Home page"
@@ -23,7 +23,7 @@ author:
   # Biographic information
   avatar           : "images\Kreucher.jpg"
   name             : "Chris Kreucher"
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "KBR Senior Techncial Fellow. PhD Electrical Engineering from the University of Michigan. My research interests include multisensor fusion, nonlinear filtering, information theory, multitarget tracking, and sensor management."
   location         : "Ann Arbor, Michigan"
   employer         : "KBR"
   uri              : # URL
