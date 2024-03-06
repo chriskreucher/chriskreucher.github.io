@@ -32,13 +32,13 @@ def html_escape(text):
 def main():
   print("Hello, actions v4 !")
 
-  print("1 " + os.path.exists('kreucher.bib'));
-  print("2 " + os.path.exists('./kreucher.bib'));
-  print("3 " + os.path.exists(publist[pubsource]["file"]));    
-  print("4 " + os.path.exists('.github/workflows//kreucher.bib'));    
-  print("5 " + os.path.exists('chriskreucher.github.io/.github/workflows/kreucher.bib'));    
-  print("6 " + os.path.exists('./chriskreucher.github.io/.github/workflows/kreucher.bib'));    
-  print("7 " + os.path.exists('./.github/workflows/kreucher.bib'));    
+  print("1 " + str(os.path.exists('kreucher.bib')));
+  print("2 " + str(os.path.exists('./kreucher.bib')));
+  print("3 " + str(os.path.exists(publist[pubsource]["file"])));    
+  print("4 " + str(os.path.exists('.github/workflows//kreucher.bib'))));    
+  print("5 " + str(os.path.exists('chriskreucher.github.io/.github/workflows/kreucher.bib')));    
+  print("6 " + str(os.path.exists('./chriskreucher.github.io/.github/workflows/kreucher.bib')));    
+  print("7 " + str(os.path.exists('./.github/workflows/kreucher.bib')));    
     
 
     
