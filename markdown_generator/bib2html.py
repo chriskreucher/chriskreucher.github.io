@@ -86,7 +86,7 @@ def populate_header( nm, f, unique_years, unique_types):
         i=i+1
     f.write("\n<br><br>")
     f.write('\n</center>')
-
+    f.write('<font size="-0.5">')
     f.write('\n<ol id = "reverse_numbering">')
 
 
