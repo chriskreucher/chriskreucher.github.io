@@ -187,8 +187,9 @@ def main():
             pages, mess     = get(b, mess, "pages")
             location, mess  = get(b, mess, "location")
 
-            out_string = auth + '<b>' + title + '</b>. <em>' + booktitle + \
-                    '</em>, Pages ' + pages + ', ' + month + ' ' + year + '. ' 
+            out_string = auth + '<b>' + title + '</b>. <em>' + booktitle + '</em>, '
+            if not(pages==""): out_string = out_string + ' Pages ' + pages + ', '
+            out_string = out_string + month + ' ' + year + '. ' 
             if not (www==""): out_string = out_string + '[<a href = "http://' + www + '">WWW</a>] '
             if not (pdf==""): out_string = out_string + '[<a href="' + pdf + '">PDF</a>]'
             
