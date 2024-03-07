@@ -71,7 +71,10 @@ def populate_header( nm, f, unique_years, unique_types):
     f.write('\n<center>')
     f.write('\n<a href="../complete-bibliography/"><button type="button" class="btn" style="outline:none"> all </button></a>')
     for typ in unique_types:
-        f.write('\n<a href="../' + typ + '/"><button type="button" class="btn" style="outline:none"> ' + typ + '</button></a>')
+        if typ == nm:
+            f.write('\n<a href="../' + typ + '/"><button type="button" class="button button3" style="outline:none"> ' + typ + '</button></a>')
+        else:
+            f.write('\n<a href="../' + typ + '/"><button type="button" class="btn" style="outline:none"> ' + typ + '</button></a>')
     f.write('\n</center>')
 
     f.write("\n<br><br>")
@@ -82,7 +85,10 @@ def populate_header( nm, f, unique_years, unique_types):
         if i==math.ceil( len(unique_years)/3 ) :
             f.write("<br><br>")
             i=0
-        f.write('\n<a href="../' + year + '/"><button type="button" class="btn" style="outline:none"> ' + year + '</button></a>')
+        if year == name:
+            f.write('\n<a href="../' + year + '/"><button type="button" class="button button3" style="outline:none"> ' + year + '</button></a>')
+        else:
+            f.write('\n<a href="../' + year + '/"><button type="button" class="btn" style="outline:none"> ' + year + '</button></a>')
         i=i+1
     f.write("\n<br><br>")
     f.write('\n</center>')
