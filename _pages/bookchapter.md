@@ -1,6 +1,5 @@
 ---
 layout: archive
-title: "bookchapter"
 permalink: bookchapter/
 author_profile: true
 ---

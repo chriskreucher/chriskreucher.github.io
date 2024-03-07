@@ -1,6 +1,5 @@
 ---
 layout: archive
-title: "journal"
 permalink: journal/
 author_profile: true
 ---

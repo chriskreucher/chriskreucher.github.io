@@ -1,6 +1,5 @@
 ---
 layout: archive
-title: "complete-bibliography"
 permalink: complete-bibliography/
 author_profile: true
 ---
