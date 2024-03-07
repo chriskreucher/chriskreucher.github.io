@@ -1,7 +1,7 @@
 # main links links
 main:
   - title: "Publications"
-    url: /_publications/complete-bibliography.md
+    url: /complete-bibliography/
       
   - title: "CV"
     url: /cv/
