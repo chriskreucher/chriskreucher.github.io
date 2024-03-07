@@ -1,6 +1,6 @@
 import os
 # coding: utf-8
-
+print("bbbbbbbbbbbbbbbbbbb")
 # # Publications markdown generator for academicpages
 # 
 # Takes a TSV of publications with metadata and converts them for use with [academicpages.github.io](academicpages.github.io). This is an interactive Jupyter notebook, with the core python code in publications.py. Run either from the `markdown_generator` folder after replacing `publications.tsv` with one that fits your format.
@@ -24,7 +24,7 @@ import os
 # In[2]:
 
 import pandas as pd
-
+print("aaaaaaaaaaaaaaaaa")
 
 # ## Import TSV
 # 
