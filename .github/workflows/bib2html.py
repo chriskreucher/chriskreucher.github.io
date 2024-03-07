@@ -269,7 +269,8 @@ def main():
 
 
     # write the entire bibliography
-    fname_html = './_pages/complete-bibliography.md'
+    #fname_html = './_pages/complete-bibliography.md'
+    fname_html = '../_publications/' + os.path.basename('complete-bibliography.md')
     print("\n Writing " + str(fname_html) )
     all_html = open(fname_html,'w')
     populate_header(all_html, unique_years, unique_types)
@@ -281,7 +282,8 @@ def main():
 
     # write individual per-year htmls
     for year in unique_years:
-        fname = "./_pages/" + str(year) + ".md"
+        #fname = "./_pages/" + str(year) + ".md"
+        fname = '../_publications/' + os.path.basename(str(year)+'.md')
         print("\n Writing " + str(fname) )
         
         year_html = open( fname ,'w' )
@@ -297,7 +299,8 @@ def main():
 
     # write individual per-type htmls
     for typ in unique_types:
-        fname = "./_pages/" + str(typ) + ".md"
+        #fname = "./_pages/" + str(typ) + ".md"
+        fname = '../_publications/' + os.path.basename(str(typ)+'.md')
         print("\n Writing " + str(fname) )
         
         typ_html = open( fname ,'w' )
