@@ -3,6 +3,7 @@
 from pybtex.database.input import bibtex
 import pybtex.database.input.bibtex 
 import math 
+import os
 
 
 html_escape_table = {
