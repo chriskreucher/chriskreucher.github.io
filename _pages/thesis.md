@@ -9,7 +9,7 @@ author_profile: true
 <a href="../bookchapter/"><button type="button" class="btn" style="outline:none"> bookchapter</button></a>
 <a href="../conference/"><button type="button" class="btn" style="outline:none"> conference</button></a>
 <a href="../journal/"><button type="button" class="btn" style="outline:none"> journal</button></a>
-<a href="../thesis/"><button type="button" class="btn" style="outline:none"> thesis</button></a>
+<a href="../thesis/"><button type="button" class="button button3" style="outline:none"> thesis</button></a>
 </center>
 <br><br>
 <center>
