@@ -138,13 +138,7 @@ def populate_footer( f ):
 
 def main():
 
-    fname = './kreucher.bib';
-    print( "1 " + str(os.path.exists( fname ) ))
-    print( "2 " + str(os.path.exists( 'kreucher.bib' ) ))
-    print( "3 " + str(os.path.exists( 'Kreucher.bib' ) ))
-    print( "4 " + str(os.path.exists( 'chriskreucher.github.io/.github/workflows/kreucher.bib' ) ))
-    print( "5 " + str(os.path.exists( 'https://chriskreucher.github.io/.github/workflows/kreucher.bib' ) ))
-    print( "6 " + str(os.path.exists( '.github/workflows/kreucher.bib' ) ))
+    fname = '.github/workflows/kreucher.bib';
     parser = bibtex.Parser()
     bibdata = parser.parse_file(fname)
 
@@ -275,7 +269,7 @@ def main():
 
 
     # write the entire bibliography
-    all_html = open('../_pages/complete-bibliography.md','w')
+    all_html = open('./_pages/complete-bibliography.md','w')
     populate_header(all_html, unique_years, unique_types)
     for i in range(0,len(entries)):
         write_item(all_html, entries[i])
@@ -285,7 +279,7 @@ def main():
 
     # write individual per-year htmls
     for year in unique_years:
-        fname = "../_pages/" + str(year) + ".md"
+        fname = "./_pages/" + str(year) + ".md"
 
         year_html = open( fname ,'w' )
         populate_header(year_html, unique_years, unique_types)
@@ -300,7 +294,7 @@ def main():
 
     # write individual per-type htmls
     for typ in unique_types:
-        fname = "../_pages/" + str(typ) + ".md"
+        fname = "./_pages/" + str(typ) + ".md"
 
         typ_html = open( fname ,'w' )
         populate_header(typ_html, unique_years, unique_types)
