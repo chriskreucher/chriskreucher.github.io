@@ -40,7 +40,7 @@ author_profile: true
 <a href="../1998/"><button type="button" class="btn" style="outline:none"> 1998</button></a>
 <a href="../1997/"><button type="button" class="btn" style="outline:none"> 1997</button></a>
 <br><br>
-</center>
+</center><font size="-0.5">
 <ol id = "reverse_numbering">
 <li>
  C. Kreucher, <b>An Information Based Approach to Sensor Resource Allocation</b> Ph.D. Dissertation The University of Michigan Feb 2005. [<a href = "http://hdl.handle.net/2027.42/124852">WWW</a>] [<a href="../2005Dissertation.pdf">PDF</a>]

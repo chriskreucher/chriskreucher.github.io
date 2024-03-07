@@ -40,7 +40,7 @@ author_profile: true
 <a href="../1998/"><button type="button" class="btn" style="outline:none"> 1998</button></a>
 <a href="../1997/"><button type="button" class="btn" style="outline:none"> 1997</button></a>
 <br><br>
-</center>
+</center><font size="-0.5">
 <ol id = "reverse_numbering">
 <li>
  K. Bell,  C. Kreucher,  A. Brandwie,  J. Johnson, <b>Fully Adaptive Radar Resource Allocation for Tracking and Classification</b>. K. Mishra,  M. Rangaswamy,  B. Shankar, editors, <em>Next Generation Cognitive Radar Systems</em>, Chapter 9, Pages 277-312. IET Press, December 2023. [<a href = "http://doi.org/10.1049/SBRA552E_ch9">WWW</a>] [<a href="../2023IET_Bell_preprint.pdf">PDF</a>]
