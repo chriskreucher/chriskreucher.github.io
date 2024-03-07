@@ -59,17 +59,24 @@ def get_names( b, mess, key ):
 
 
 def populate_header( f, unique_years, unique_types):
-    f.write('\n<meta name=viewport content="width=device-width, initial-scale=1"><html>')
-    f.write('\n<head>')
-    f.write('\n<title>')
-    f.write('\nAll publications sorted by date</title>')
-    f.write('\n</head>')
-    f.write('\n<body bgcolor="#FFFFFF" link="blue" alink="blue" vlink="blue">')
+    #f.write('\n<meta name=viewport content="width=device-width, initial-scale=1"><html>')
+    #f.write('\n<head>')
+    #f.write('\n<title>')
+    #f.write('\nAll publications sorted by date</title>')
+    #f.write('\n</head>')
+    #f.write('\n<body bgcolor="#FFFFFF" link="blue" alink="blue" vlink="blue">')
+
+    f.write('\n---');
+    f.write('\nlayout: archive');
+    f.write('\ntitle: "Publications"');
+    f.write('\npermalink: /publications/');
+    f.write('\nauthor_profile: true');
+    f.write('\n---');
 
     f.write('\n<center>')
-    f.write('\n<a href="complete-bibliography.html"><button type="button" class="btn" style="outline:none"> all </button></a>')
+    f.write('\n<a href="complete-bibliography.md"><button type="button" class="btn" style="outline:none"> all </button></a>')
     for typ in unique_types:
-        f.write('\n<a href="' + typ + '.html"><button type="button" class="btn" style="outline:none"> ' + typ + '</button></a>')
+        f.write('\n<a href="' + typ + '.md"><button type="button" class="btn" style="outline:none"> ' + typ + '</button></a>')
     f.write('\n</center>')
 
     f.write("\n<br><br>")
@@ -80,7 +87,7 @@ def populate_header( f, unique_years, unique_types):
         if i==math.ceil( len(unique_years)/2 ) :
             f.write("<br><br>")
             i=0
-        f.write('\n<a href="' + year + '.html"><button type="button" class="btn" style="outline:none"> ' + year + '</button></a>')
+        f.write('\n<a href="' + year + '.md"><button type="button" class="btn" style="outline:none"> ' + year + '</button></a>')
         i=i+1
     f.write("\n<br><br>")
     f.write('\n</center>')
@@ -261,7 +268,7 @@ def main():
 
 
     # write the entire bibliography
-    all_html = open('complete-bibliography.html','w')
+    all_html = open('../_pages/complete-bibliography.md','w')
     populate_header(all_html, unique_years, unique_types)
     for i in range(0,len(entries)):
         write_item(all_html, entries[i])
@@ -271,7 +278,7 @@ def main():
 
     # write individual per-year htmls
     for year in unique_years:
-        fname = str(year) + ".html"
+        fname = "../_pages/" + str(year) + ".md"
 
         year_html = open( fname ,'w' )
         populate_header(year_html, unique_years, unique_types)
@@ -286,7 +293,7 @@ def main():
 
     # write individual per-type htmls
     for typ in unique_types:
-        fname = str(typ) + ".html"
+        fname = "../_pages/" + str(typ) + ".md"
 
         typ_html = open( fname ,'w' )
         populate_header(typ_html, unique_years, unique_types)
