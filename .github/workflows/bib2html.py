@@ -1,23 +1,9 @@
+# a python script to turn a bib file into html files
+
 from pybtex.database.input import bibtex
 import pybtex.database.input.bibtex 
-from time import strptime
-import string
-import html
-import os
-import re
+import math 
 
-
-#todo: incorporate different collection types rather than a catch all publications, requires other changes to template
-publist = {
-    "proceeding": {
-        "file" : ".github/workflows//kreucher.bib",
-        "venuekey": "article",
-        "venue-pretext": "In the proceedings of ",
-        "collection" : {"name":"publications",
-                        "permalink":"/publication/"}
-        
-    }
-}
 
 html_escape_table = {
     "&": "&amp;",
@@ -25,120 +11,293 @@ html_escape_table = {
     "'": "&apos;"
     }
 
+
 def html_escape(text):
     """Produce entities within text."""
     return "".join(html_escape_table.get(c,c) for c in text)
 
-def main():
-  print("In bib2html.py")
-  
-  # files work : "/home/runner/work/chriskreucher.github.io/chriskreucher.github.io/.github/workflows/kreucher.bib", '.github/workflows//kreucher.bib')
+
+def e(text):
+    return( text!="");
+
+
+def get( b, mess, key ):
+    out = ""
+    try : 
+        out = b[key]
+    except:
+        mess = mess + " missing " + key
+    return out, mess
+
+
+def get_title( b, mess ):
+    pub_title = ""
+    try:
+        pub_title = html_escape(b["title"].replace("{", "").replace("}","").replace("\\","")) 
+    except:
+        mess = mess + " missing title"
+    return pub_title, mess
+
+
+def get_journal( b, mess ):
+    pub_journal = ""
+    try:
+        pub_journal = b["journal"].replace("{", "").replace("}","")
+    except:
+        mess = mess + " missing journal"
+    return pub_journal, mess    
     
-  for pubsource in publist:
+
+def get_names( b, mess, key ):
+    out = ""
+    try:
+        for dude in b.persons[key]:
+            out = out + " " + dude.first_names[0] + " " + dude.last_names[0]+", "
+    except:
+        mess = mess + " missing " + key
+    return out, mess
+
+
+def populate_header( f, unique_years, unique_types):
+    f.write('\n<meta name=viewport content="width=device-width, initial-scale=1"><html>')
+    f.write('\n<head>')
+    f.write('\n<title>')
+    f.write('\nAll publications sorted by date</title>')
+    f.write('\n</head>')
+    f.write('\n<body bgcolor="#FFFFFF" link="blue" alink="blue" vlink="blue">')
+
+    f.write('\n<center>')
+    f.write('\n<a href="complete-bibliography.html"><button type="button" class="btn" style="outline:none"> all </button></a>')
+    for typ in unique_types:
+        f.write('\n<a href="' + typ + '.html"><button type="button" class="btn" style="outline:none"> ' + typ + '</button></a>')
+    f.write('\n</center>')
+
+    f.write("\n<br><br>")
+    f.write('\n<center>')
+
+    i=0
+    for year in unique_years:
+        if i==math.ceil( len(unique_years)/2 ) :
+            f.write("<br><br>")
+            i=0
+        f.write('\n<a href="' + year + '.html"><button type="button" class="btn" style="outline:none"> ' + year + '</button></a>')
+        i=i+1
+    f.write("\n<br><br>")
+    f.write('\n</center>')
+
+    f.write('\n<ol id = "reverse_numbering">')
+
+
+
+def write_item( f, item ):
+    f.write("\n<li>")
+    f.write('\n' + item)
+    f.write("\n</li>")
+    f.write("\n<br>")
+
+
+def populate_footer( f ):
+    f.write('\n</ol>')
+    f.write('\n<script type="text/javascript">');
+    f.write("\nvar reverse=document.getElementById('reverse_numbering');");
+    f.write("\nreverse.style.listStyle='none';");
+    f.write("\nreverse.style.textIndent='-23px';");
+    f.write("\nvar li=reverse.getElementsByTagName('li');");
+    f.write("\nfor(var i=0; i<li.length; i++){");
+    f.write("\nli[i].insertBefore(document.createTextNode(li.length-i+'. '), li[i].firstChild);}");
+    f.write("\n</script>");
+
+    f.write("\n<u><b>Disclaimer:</b></u><br><br>");
+    f.write("\n<p><em>");
+    f.write("""\nThis material is presented to ensure timely dissemination of scholarly and 
+        technical work. Copyright and all rights therein are retained by authors or by other copyright holders.
+        All person copying this information are expected to adhere to the terms and constraints invoked by each 
+        author's copyright. In most cases, these works may not be reposted without the explicit permission of 
+        the copyright holder.""");
+    f.write("\n</em></p>\n<p><em>");
+    f.write("""\nSome of these documents are (c) IEEE. Personal use of this material is permitted. However, 
+        permission to reprint/republish this material for advertising or promotional purposes or for creating 
+        new collective works for resale or redistribution to servers or lists, or to reuse any copyrighted
+        component of this work in other works must be obtained from the IEEE.""");
+    f.write("""\nOther documents are (c) SPIE. These documents are made available as an electronic reprint with 
+        permission of SPIE. One print or electronic copy may be made for personal use only. Systematic or multiple 
+        reproduction, distribution to multiple locations via electronic or other means, duplication of any material 
+        in this paper for a fee or for commercial purposes, or modification of the content of the paper are prohibited""")
+    f.write("\n</em></p>");
+    f.write('\n</body>')
+    f.write('\n</html>')
+
+
+def main():
+
+    fname = '../kreucher.bib';
     parser = bibtex.Parser()
-    print ('\n\n\n\nfile is ' + publist[pubsource]["file"] + '\n\n\n\n\n')
-    bibdata = parser.parse_file(publist[pubsource]["file"])
+    bibdata = parser.parse_file(fname)
 
-    #loop through the individual references in a given bibtex file
+
+    entries = list()
+    all_years = list()
+    all_types = list()
+
+
     for bib_id in bibdata.entries:
-        #reset default date
-        pub_year = "1900"
-        pub_month = "01"
-        pub_day = "01"
         
+        article_type = bibdata.entries[bib_id].type;
         b = bibdata.entries[bib_id].fields
-        
-        try:
-            pub_year = f'{b["year"]}'
+        ba = bibdata.entries[bib_id]
+        mess = "";
 
-            #todo: this hack for month and day needs some cleanup
-            if "month" in b.keys(): 
-                if(len(b["month"])<3):
-                    pub_month = "0"+b["month"]
-                    pub_month = pub_month[-2:]
-                elif(b["month"] not in range(12)):
-                    tmnth = strptime(b["month"][:3],'%b').tm_mon   
-                    pub_month = "{:02d}".format(tmnth) 
-                else:
-                    pub_month = str(b["month"])
-            if "day" in b.keys(): 
-                pub_day = str(b["day"])
+        if article_type.upper() == "JOURNAL":
 
-                
-            pub_date = pub_year+"-"+pub_month+"-"+pub_day
+            auth, mess      = get_names(ba, mess, "author")
+            title, mess     = get_title(b, mess)
+            journal, mess   = get_journal(b, mess)
+            volume, mess    = get(b, mess, "volume")
+            number, mess    = get(b, mess, "number")
+            pages, mess     = get(b, mess, "pages")
+            month, mess     = get(b, mess, "month")
+            year, mess      = get(b, mess, "year")
+            www, mess       = get(b, mess, "url")
+            pdf, mess       = get(b, mess, "pdf")
+
+            out_string = auth + '<b>' + title + '</b>. <em>' + journal + '</em>, ' + volume + \
+                '(' + number + '): ' + pages + ', ' + month + ' ' + year + '. ' 
+            if not (www==""): out_string = out_string + '[<a href = "http://' + www + '">WWW</a>] '
+            out_string = out_string + '[<a href="' + pdf + '">PDF</a>]'
+
+            entries.append( out_string )
+            all_years.append(year)
+            all_types.append(article_type)
+
+            if e(mess):
+                print("\n" + str(bib_id) + "  " + mess, end="" );
+
+
+        elif article_type.upper() == "CONFERENCE":
+            auth, mess      = get_names(ba, mess, "author")
+            title, mess     = get_title(b, mess)
+            month, mess     = get(b, mess, "month")
+            year, mess      = get(b, mess, "year")
+            booktitle, mess = get(b, mess, "booktitle")
+            www, mess       = get(b, mess, "url")
+            pdf, mess       = get(b, mess, "pdf")
+            pages, mess     = get(b, mess, "pages")
+            location, mess  = get(b, mess, "location")
+
+            out_string = auth + '<b>' + title + '</b>. <em>' + booktitle + \
+                    '</em>, Pages ' + pages + ', ' + month + ' ' + year + '. ' 
+            if not (www==""): out_string = out_string + '[<a href = "http://' + www + '">WWW</a>] '
+            if not (pdf==""): out_string = out_string + '[<a href="' + pdf + '">PDF</a>]'
             
-            #strip out {} as needed (some bibtex entries that maintain formatting)
-            clean_title = b["title"].replace("{", "").replace("}","").replace("\\","").replace(" ","-")    
+            entries.append( out_string )
+            all_years.append(year)
+            all_types.append(article_type)
 
-            url_slug = re.sub("\\[.*\\]|[^a-zA-Z0-9_-]", "", clean_title)
-            url_slug = url_slug.replace("--","-")
+            if e(mess):
+                print("\n" + str(bib_id) + "  " + mess, end="" );                
 
-            md_filename = (str(pub_date) + "-" + url_slug + ".md").replace("--","-")
-            html_filename = (str(pub_date) + "-" + url_slug).replace("--","-")
 
-            #Build Citation from text
-            citation = ""
+        elif article_type.upper() == "BOOKCHAPTER":
+            auth, mess      = get_names(ba, mess, "author")
+            title, mess     = get_title(b, mess)
+            editors, mess   = get_names(ba, mess, "editor")
+            booktitle, mess = get(b, mess, "booktitle")
+            chapter, mess   = get(b, mess, "chapter")
+            pages, mess     = get(b, mess, "pages")
+            publisher, mess = get(b, mess, "publisher")
+            month, mess     = get(b, mess, "month")
+            year, mess      = get(b, mess, "year")
+            www, mess       = get(b, mess, "url")
+            pdf, mess       = get(b, mess, "pdf")
 
-            #citation authors - todo - add highlighting for primary author?
-            for author in bibdata.entries[bib_id].persons["author"]:
-                citation = citation+" "+author.first_names[0]+" "+author.last_names[0]+", "
+            out_string = auth + '<b>' + title + '</b>.' + editors + 'editors, <em>' + \
+                    booktitle + '</em>, Chapter ' + chapter + ', Pages ' + pages + \
+                    '. ' + publisher + ', ' + month + ' ' + year + '. '
+            if not (www==""): out_string = out_string + '[<a href = "http://' + www + '">WWW</a>] '
+            out_string = out_string + '[<a href="' + pdf + '">PDF</a>]'
 
-            #citation title
-            citation = citation + "\"" + html_escape(b["title"].replace("{", "").replace("}","").replace("\\","")) + ".\""
+            entries.append( out_string )
+            all_years.append(year)
+            all_types.append(article_type)
 
-            #add venue logic depending on citation type
-            venue = publist[pubsource]["venue-pretext"]+b[publist[pubsource]["venuekey"]].replace("{", "").replace("}","").replace("\\","")
+            if e(mess):
+                print("\n" + str(bib_id) + "  " + mess, end="" );
 
-            citation = citation + " " + html_escape(venue)
-            citation = citation + ", " + pub_year + "."
 
-            
-            ## YAML variables
-            md = "---\ntitle: \""   + html_escape(b["title"].replace("{", "").replace("}","").replace("\\","")) + '"\n'
-            
-            md += """collection: """ +  publist[pubsource]["collection"]["name"]
+        elif article_type.upper() == "THESIS":
+            auth, mess      = get_names(ba, mess, "author");
+            title, mess     = get_title(b, mess);
+            month, mess     = get(b, mess, "month")
+            year, mess      = get(b, mess, "year")
+            www, mess       = get(b, mess, "url")
+            pdf, mess       = get(b, mess, "pdf")
+            school, mess    = get(b, mess, "school");
+            typ, mess       = get(b, mess, "type");
 
-            md += """\npermalink: """ + publist[pubsource]["collection"]["permalink"]  + html_filename
-            
-            note = False
-            if "note" in b.keys():
-                if len(str(b["note"])) > 5:
-                    md += "\nexcerpt: '" + html_escape(b["note"]) + "'"
-                    note = True
+            out_string = auth + '<b>' + title + '</b> ' + typ + ' ' \
+                    + school + ' ' +  month + ' ' + year + '. '
+            if not (www==""): out_string = out_string + '[<a href = "http://' + www + '">WWW</a>] '
+            out_string = out_string + '[<a href="' + pdf + '">PDF</a>]'
 
-            md += "\ndate: " + str(pub_date) 
+            entries.append( out_string )
+            all_years.append(year)
+            all_types.append(article_type)
 
-            md += "\nvenue: '" + html_escape(venue) + "'"
-            
-            url = False
-            if "url" in b.keys():
-                if len(str(b["url"])) > 5:
-                    md += "\npaperurl: '" + b["url"] + "'"
-                    url = True
+            if e(mess):
+                print("\n" + str(bib_id) + "  " + mess, end="" );
+        else:
+            print( article_type + " is not known");
 
-            md += "\ncitation: '" + html_escape(citation) + "'"
 
-            md += "\n---"
+    # get the unique types and years
+    all_years.sort()
+    list_set = set( all_years )
+    unique_years = (list(list_set))
+    unique_years.sort(reverse=True)
+  
+    list_set = set( all_types )
+    unique_types = (list(list_set))
+    unique_types.sort()
 
-            
-            ## Markdown description for individual page
-            if note:
-                md += "\n" + html_escape(b["note"]) + "\n"
 
-            if url:
-                md += "\n[Access paper here](" + b["url"] + "){:target=\"_blank\"}\n" 
-            else:
-                md += "\nUse [Google Scholar](https://scholar.google.com/scholar?q="+html.escape(clean_title.replace("-","+"))+"){:target=\"_blank\"} for full citation"
+    # write the entire bibliography
+    all_html = open('complete-bibliography.html','w')
+    populate_header(all_html, unique_years, unique_types)
+    for i in range(0,len(entries)):
+        write_item(all_html, entries[i])
+    populate_footer( all_html )
+    all_html.close()
 
-            md_filename = os.path.basename(md_filename)
 
-            with open("../_publications/" + md_filename, 'w', encoding="utf-8") as f:
-                f.write(md)
-            print(f'SUCESSFULLY PARSED {bib_id}: \"', b["title"][:60],"..."*(len(b['title'])>60),"\"")
-        # field may not exist for a reference
-        except KeyError as e:
-            print(f'WARNING Missing Expected Field {e} from entry {bib_id}: \"', b["title"][:30],"..."*(len(b['title'])>30),"\"")
-            continue
+    # write individual per-year htmls
+    for year in unique_years:
+        fname = str(year) + ".html"
+
+        year_html = open( fname ,'w' )
+        populate_header(year_html, unique_years, unique_types)
+
+        for i in range(0,len(all_years)):
+            if( all_years[i] == year): write_item( year_html, entries[i])
+
+        populate_footer( year_html )
+        year_html.close()
+
+
+
+    # write individual per-type htmls
+    for typ in unique_types:
+        fname = str(typ) + ".html"
+
+        typ_html = open( fname ,'w' )
+        populate_header(typ_html, unique_years, unique_types)
+
+        for i in range(0,len(all_types)):
+            if( all_types[i] == typ): write_item( typ_html, entries[i])
+
+        populate_footer( typ_html )
+        typ_html.close()
+
+
 
 
 if __name__ == '__main__':
