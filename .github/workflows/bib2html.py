@@ -137,7 +137,7 @@ def populate_footer( f ):
 
 def main():
 
-    fname = '../kreucher.bib';
+    fname = 'kreucher.bib';
     parser = bibtex.Parser()
     bibdata = parser.parse_file(fname)
 
