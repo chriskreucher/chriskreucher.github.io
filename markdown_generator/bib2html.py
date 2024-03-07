@@ -252,7 +252,6 @@ def main():
 
 
     # get the unique types and years
-    all_years.sort()
     list_set = set( all_years )
     unique_years = (list(list_set))
     unique_years.sort(reverse=True)
