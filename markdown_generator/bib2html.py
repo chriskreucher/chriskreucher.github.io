@@ -59,20 +59,13 @@ def get_names( b, mess, key ):
     return out, mess
 
 
-def populate_header( f, unique_years, unique_types):
-    #f.write('\n<meta name=viewport content="width=device-width, initial-scale=1"><html>')
-    #f.write('\n<head>')
-    #f.write('\n<title>')
-    #f.write('\nAll publications sorted by date</title>')
-    #f.write('\n</head>')
-    #f.write('\n<body bgcolor="#FFFFFF" link="blue" alink="blue" vlink="blue">')
-
-    f.write('\n---');
+def populate_header( nm, f, unique_years, unique_types):
     f.write('\nlayout: archive');
-    f.write('\ntitle: "Publications"');
-    f.write('\npermalink: /publications/');
+    f.write('\ntitle: "' + str(nm) + '"');
+    f.write('\npermalink: ' + str(nm) + '/');
     f.write('\nauthor_profile: true');
     f.write('\n---');
+    f.write('\n');
 
     f.write('\n<center>')
     f.write('\n<a href="complete-bibliography.md"><button type="button" class="btn" style="outline:none"> all </button></a>')
@@ -85,7 +78,7 @@ def populate_header( f, unique_years, unique_types):
 
     i=0
     for year in unique_years:
-        if i==math.ceil( len(unique_years)/2 ) :
+        if i==math.ceil( len(unique_years)/3 ) :
             f.write("<br><br>")
             i=0
         f.write('\n<a href="' + year + '.md"><button type="button" class="btn" style="outline:none"> ' + year + '</button></a>')
@@ -271,7 +264,7 @@ def main():
     # write the entire bibliography
     fname_html = '_pages/complete-bibliography.md'
     all_html = open(fname_html,'w')
-    populate_header(all_html, unique_years, unique_types)
+    populate_header('complete-bibliography', all_html, unique_years, unique_types)
     for i in range(0,len(entries)):        
         write_item(all_html, entries[i])
     populate_footer( all_html )
@@ -282,7 +275,7 @@ def main():
     for year in unique_years:
         fname = './_pages/' + str(year)+'.md'        
         year_html = open( fname ,'w' )
-        populate_header(year_html, unique_years, unique_types)
+        populate_header(str(year), year_html, unique_years, unique_types)
 
         for i in range(0,len(all_years)):
             if( all_years[i] == year): write_item( year_html, entries[i])
@@ -296,7 +289,7 @@ def main():
     for typ in unique_types:
         fname = "./_pages/" + str(typ) + ".md"       
         typ_html = open( fname ,'w' )
-        populate_header(typ_html, unique_years, unique_types)
+        populate_header(str(typ), typ_html, unique_years, unique_types)
 
         for i in range(0,len(all_types)):
             if( all_types[i] == typ): write_item( typ_html, entries[i])
