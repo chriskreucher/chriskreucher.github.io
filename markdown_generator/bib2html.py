@@ -85,7 +85,7 @@ def populate_header( nm, f, unique_years, unique_types):
         if i==math.ceil( len(unique_years)/3 ) :
             f.write("<br><br>")
             i=0
-        if year == name:
+        if year == nm:
             f.write('\n<a href="../' + year + '/"><button type="button" class="button button3" style="outline:none"> ' + year + '</button></a>')
         else:
             f.write('\n<a href="../' + year + '/"><button type="button" class="btn" style="outline:none"> ' + year + '</button></a>')
