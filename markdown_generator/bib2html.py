@@ -274,7 +274,6 @@ def main():
     populate_header(all_html, unique_years, unique_types)
     for i in range(0,len(entries)):        
         write_item(all_html, entries[i])
-        print( entries[i] + " written to " + fname_html )
     populate_footer( all_html )
     all_html.close()
 
