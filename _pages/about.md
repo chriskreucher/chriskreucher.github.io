@@ -1,6 +1,5 @@
 ---
 permalink: /
-title: "Chris Kreucher's Home Page"
 author_profile: true
 redirect_from: 
   - /about/
