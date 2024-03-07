@@ -6,40 +6,40 @@ author_profile: true
 ---
 
 <center>
-<a href="complete-bibliography.md"><button type="button" class="btn" style="outline:none"> all </button></a>
-<a href="bookchapter.md"><button type="button" class="btn" style="outline:none"> bookchapter</button></a>
-<a href="conference.md"><button type="button" class="btn" style="outline:none"> conference</button></a>
-<a href="journal.md"><button type="button" class="btn" style="outline:none"> journal</button></a>
-<a href="thesis.md"><button type="button" class="btn" style="outline:none"> thesis</button></a>
+<a href="../complete-bibliography/"><button type="button" class="btn" style="outline:none"> all </button></a>
+<a href="../bookchapter/"><button type="button" class="btn" style="outline:none"> bookchapter</button></a>
+<a href="../conference/"><button type="button" class="btn" style="outline:none"> conference</button></a>
+<a href="../journal/"><button type="button" class="btn" style="outline:none"> journal</button></a>
+<a href="../thesis/"><button type="button" class="btn" style="outline:none"> thesis</button></a>
 </center>
 <br><br>
 <center>
-<a href="2023.md"><button type="button" class="btn" style="outline:none"> 2023</button></a>
-<a href="2022.md"><button type="button" class="btn" style="outline:none"> 2022</button></a>
-<a href="2021.md"><button type="button" class="btn" style="outline:none"> 2021</button></a>
-<a href="2020.md"><button type="button" class="btn" style="outline:none"> 2020</button></a>
-<a href="2019.md"><button type="button" class="btn" style="outline:none"> 2019</button></a>
-<a href="2018.md"><button type="button" class="btn" style="outline:none"> 2018</button></a>
-<a href="2017.md"><button type="button" class="btn" style="outline:none"> 2017</button></a>
-<a href="2016.md"><button type="button" class="btn" style="outline:none"> 2016</button></a>
-<a href="2015.md"><button type="button" class="btn" style="outline:none"> 2015</button></a><br><br>
-<a href="2014.md"><button type="button" class="btn" style="outline:none"> 2014</button></a>
-<a href="2013.md"><button type="button" class="btn" style="outline:none"> 2013</button></a>
-<a href="2012.md"><button type="button" class="btn" style="outline:none"> 2012</button></a>
-<a href="2011.md"><button type="button" class="btn" style="outline:none"> 2011</button></a>
-<a href="2010.md"><button type="button" class="btn" style="outline:none"> 2010</button></a>
-<a href="2009.md"><button type="button" class="btn" style="outline:none"> 2009</button></a>
-<a href="2008.md"><button type="button" class="btn" style="outline:none"> 2008</button></a>
-<a href="2007.md"><button type="button" class="btn" style="outline:none"> 2007</button></a>
-<a href="2006.md"><button type="button" class="btn" style="outline:none"> 2006</button></a><br><br>
-<a href="2005.md"><button type="button" class="btn" style="outline:none"> 2005</button></a>
-<a href="2004.md"><button type="button" class="btn" style="outline:none"> 2004</button></a>
-<a href="2003.md"><button type="button" class="btn" style="outline:none"> 2003</button></a>
-<a href="2001.md"><button type="button" class="btn" style="outline:none"> 2001</button></a>
-<a href="2000.md"><button type="button" class="btn" style="outline:none"> 2000</button></a>
-<a href="1999.md"><button type="button" class="btn" style="outline:none"> 1999</button></a>
-<a href="1998.md"><button type="button" class="btn" style="outline:none"> 1998</button></a>
-<a href="1997.md"><button type="button" class="btn" style="outline:none"> 1997</button></a>
+<a href="../2023/"><button type="button" class="btn" style="outline:none"> 2023</button></a>
+<a href="../2022/"><button type="button" class="btn" style="outline:none"> 2022</button></a>
+<a href="../2021/"><button type="button" class="btn" style="outline:none"> 2021</button></a>
+<a href="../2020/"><button type="button" class="btn" style="outline:none"> 2020</button></a>
+<a href="../2019/"><button type="button" class="btn" style="outline:none"> 2019</button></a>
+<a href="../2018/"><button type="button" class="btn" style="outline:none"> 2018</button></a>
+<a href="../2017/"><button type="button" class="btn" style="outline:none"> 2017</button></a>
+<a href="../2016/"><button type="button" class="btn" style="outline:none"> 2016</button></a>
+<a href="../2015/"><button type="button" class="btn" style="outline:none"> 2015</button></a><br><br>
+<a href="../2014/"><button type="button" class="btn" style="outline:none"> 2014</button></a>
+<a href="../2013/"><button type="button" class="btn" style="outline:none"> 2013</button></a>
+<a href="../2012/"><button type="button" class="btn" style="outline:none"> 2012</button></a>
+<a href="../2011/"><button type="button" class="btn" style="outline:none"> 2011</button></a>
+<a href="../2010/"><button type="button" class="btn" style="outline:none"> 2010</button></a>
+<a href="../2009/"><button type="button" class="btn" style="outline:none"> 2009</button></a>
+<a href="../2008/"><button type="button" class="btn" style="outline:none"> 2008</button></a>
+<a href="../2007/"><button type="button" class="btn" style="outline:none"> 2007</button></a>
+<a href="../2006/"><button type="button" class="btn" style="outline:none"> 2006</button></a><br><br>
+<a href="../2005/"><button type="button" class="btn" style="outline:none"> 2005</button></a>
+<a href="../2004/"><button type="button" class="btn" style="outline:none"> 2004</button></a>
+<a href="../2003/"><button type="button" class="btn" style="outline:none"> 2003</button></a>
+<a href="../2001/"><button type="button" class="btn" style="outline:none"> 2001</button></a>
+<a href="../2000/"><button type="button" class="btn" style="outline:none"> 2000</button></a>
+<a href="../1999/"><button type="button" class="btn" style="outline:none"> 1999</button></a>
+<a href="../1998/"><button type="button" class="btn" style="outline:none"> 1998</button></a>
+<a href="../1997/"><button type="button" class="btn" style="outline:none"> 1997</button></a>
 <br><br>
 </center>
 <ol id = "reverse_numbering">
