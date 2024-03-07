@@ -143,6 +143,8 @@ def main():
     print( "2 " + str(os.path.exists( 'kreucher.bib' ) ))
     print( "3 " + str(os.path.exists( 'Kreucher.bib' ) ))
     print( "4 " + str(os.path.exists( 'chriskreucher.github.io/.github/workflows/kreucher.bib' ) ))
+    print( "5 " + str(os.path.exists( 'https://chriskreucher.github.io/.github/workflows/kreucher.bib' ) ))
+    print( "6 " + str(os.path.exists( '.github/workflows/kreucher.bib' ) ))
     parser = bibtex.Parser()
     bibdata = parser.parse_file(fname)
 
