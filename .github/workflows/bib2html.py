@@ -139,10 +139,10 @@ def populate_footer( f ):
 def main():
 
     fname = './kreucher.bib';
-    print( "1 " + os.path.exists( fname ) )
-    print( "2 " + os.path.exists( 'kreucher.bib' ) )
-    print( "3 " + os.path.exists( 'Kreucher.bib' ) )
-    print( "4 " + os.path.exists( 'chriskreucher.github.io/.github/workflows/kreucher.bib' ) )
+    print( "1 " + str(os.path.exists( fname ) ))
+    print( "2 " + str(os.path.exists( 'kreucher.bib' ) ))
+    print( "3 " + str(os.path.exists( 'Kreucher.bib' ) ))
+    print( "4 " + str(os.path.exists( 'chriskreucher.github.io/.github/workflows/kreucher.bib' ) ))
     parser = bibtex.Parser()
     bibdata = parser.parse_file(fname)
 
