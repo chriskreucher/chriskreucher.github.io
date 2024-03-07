@@ -34,6 +34,7 @@ import pandas as pd
 
 # In[3]:
 
+print("\n **** " + str(os.getcwd()) )
 publications = pd.read_csv("publications.tsv", sep="\t", header=0)
 publications
 
