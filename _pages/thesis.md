@@ -1,4 +1,5 @@
 
+---
 layout: archive
 title: "thesis"
 permalink: thesis/
