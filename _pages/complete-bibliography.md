@@ -1,10 +1,10 @@
-
 ---
 layout: archive
-title: "Publications"
-permalink: /publications/
+title: "complete-bibliograhy"
+permalink: /complete-bibliography/
 author_profile: true
 ---
+
 <center>
 <a href="complete-bibliography.md"><button type="button" class="btn" style="outline:none"> all </button></a>
 <a href="bookchapter.md"><button type="button" class="btn" style="outline:none"> bookchapter</button></a>
