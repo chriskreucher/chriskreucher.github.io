@@ -62,7 +62,7 @@ def get_names( b, mess, key ):
 def populate_header( nm, f, unique_years, unique_types):
     f.write('---');
     f.write('\nlayout: archive');
-    f.write('\ntitle: "' + str(nm) + '"');
+    #f.write('\ntitle: "' + str(nm) + '"');
     f.write('\npermalink: ' + str(nm) + '/');
     f.write('\nauthor_profile: true');
     f.write('\n---');
