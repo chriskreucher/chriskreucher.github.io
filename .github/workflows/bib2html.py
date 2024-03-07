@@ -271,12 +271,14 @@ def main():
     # write the entire bibliography
     #fname_html = './_pages/complete-bibliography.md'
     #fname_html = '../_publications/' + os.path.basename('complete-bibliography.md')
-    fname_html = '_publications/complete-bibliography.md'
+    #fname_html = '_publications/complete-bibliography.md'
+    fname_html = 'complete-bibliography.md'
     print("\n Writing " + str(fname_html) )
     all_html = open(fname_html,'w')
     populate_header(all_html, unique_years, unique_types)
-    for i in range(0,len(entries)):
+    for i in range(0,len(entries)):        
         write_item(all_html, entries[i])
+        print( entries[i] + " written to " + fname_html )
     populate_footer( all_html )
     all_html.close()
 
