@@ -26,8 +26,7 @@ def get( b, mess, key ):
     out = ""
     try : 
         out = b[key]
-        out.replace("{", "").replace("}","")
-        print( out )
+        out = out.replace("{", "").replace("}","")
     except:
         mess = mess + " missing " + key
     return out, mess
