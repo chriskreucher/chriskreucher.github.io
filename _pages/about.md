@@ -9,7 +9,7 @@ redirect_from:
 I am a Senior Technical Fellow and Analytics & Exploitation Group Lead at [KBR](https://www.kbr.com) (formerly Integrity Applications Incorporated) in Ann Arbor, Michigan. 
 
 From 1998 to 2008, I was a Staff Scientist at General Dynamics Advanced Information Systems' Michigan 
-Research & Development Facility (formerly ERIM). 
+Research & Development Facility (formerly [ERIM](https://en.wikipedia.org/wiki/Environmental_Research_Institute_of_Michigan)). 
 
 I earned the PhD in Electrical Engineering (Systems) from [The University of Michigan](https://www.umich.edu) in 2005.
 
