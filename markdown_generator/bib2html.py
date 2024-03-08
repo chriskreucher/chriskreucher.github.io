@@ -138,7 +138,6 @@ def populate_footer( f ):
 
 def main():
 
-    #fname = '.github/workflows/kreucher.bib';
     fname = 'markdown_generator/kreucher.bib';
     parser = bibtex.Parser()
     bibdata = parser.parse_file(fname)
