@@ -7,7 +7,9 @@
 {% endif %}
 
 {% if post.id %}
-  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+  {% assign paper_title = post.paper_title %}
+  {% assign pdf_link = post.pdf_link %}
+  {% assign www_link = post.www_link %}
 {% else %}
   {% assign paper_title = post.paper_title %}
   {% assign pdf_link = post.pdf_link %}
