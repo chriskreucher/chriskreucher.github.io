@@ -6,6 +6,8 @@ author_profile: true
 
 {% include base_path %}
 
+<span style="font-size:4em;">
+
 Education
 =========
 * Ph.D in Electrical Engineering (Systems), The University of Michigan, 2005
@@ -18,7 +20,7 @@ Education
 Work experience
 ===============
 * 2008-Present: [KBR](https://kbr.com) (formerly Integrity Applications, Incorporated)
-  * Senior Scientist: I fill PI and PM roles for detection, tracking, classification, fusion and AI/ML research efforts from DoD/IC components including DARPA, AFRL, NGA-R and other uSG
+  * Senior Scientist: I fill PI and PM roles for detection, tracking, classification, fusion and AI/ML research efforts from DoD/IC components including DARPA, AFRL, NGA-R and other USG
   * Senior Techncial Fellow: I am responsible for directing activities that will advance the state of the art, anticipating customer needs, assisting in internal funding decisions, and fostering internal techncial excellence through mentoring and recruiting
   * Group Lead: I manage a mid-size team of PhDs, including program assignment, mentoring, and performance evaluation
 
@@ -59,3 +61,4 @@ Teaching
   {% endfor %}</ul>
 
   
+</span>
