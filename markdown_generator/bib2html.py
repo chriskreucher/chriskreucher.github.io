@@ -274,12 +274,12 @@ def main():
     for i in range(0,len(entries)):        
         write_item(all_html, entries[i])
         if i<5: # write out the most recent five to the CV page
-            fname = '_publications/publication-' + str(i)
+            fname = '_publications/publication-' + str(i) + '.md'
             pub = open( fname ,'w')
             pub.write('---')
-            pub.write('\npaper_title : "' + titles[i])
-            pub.write('\npdf_link : "' + pdfs[i])
-            pub.write('\nwww_link : "' + wwws[i])
+            pub.write('\npaper_title :"' + titles[i]) + '"'
+            pub.write('\npdf_link : "' + pdfs[i]) + '"'
+            pub.write('\nwww_link : "' + wwws[i]) + '"'
             pub.write('\n---')
             pub.close()
     populate_footer( all_html )
