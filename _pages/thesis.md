@@ -43,11 +43,11 @@ author_profile: true
 </center><font size="-0.5">
 <ol id = "reverse_numbering">
 <li>
- C. Kreucher, <b>An Information Based Approach to Sensor Resource Allocation</b> Ph.D. Dissertation The University of Michigan Feb 2005. [<a href = "http://hdl.handle.net/2027.42/124852">WWW</a>] [<a href="../2005Dissertation.pdf">PDF</a>]
+ C. Kreucher, <b>An Information Based Approach to Sensor Resource Allocation</b> Ph.D. Dissertation The University of Michigan Feb 2005. [<a href = "http://hdl.handle.net/2027.42/124852">WWW</a>] [<a href="../papers/2005Dissertation.pdf">PDF</a>]
 </li>
 <br>
 <li>
- C. Kreucher, <b>A Tool for Query and Analysis of MPEG Encoded Video</b> Masters Thesis The University of Michigan, Dearborn May 1998. [<a href="../1998MastersThesis.pdf">PDF</a>]
+ C. Kreucher, <b>A Tool for Query and Analysis of MPEG Encoded Video</b> Masters Thesis The University of Michigan, Dearborn May 1998. [<a href="../papers/1998MastersThesis.pdf">PDF</a>]
 </li>
 <br>
 </ol>

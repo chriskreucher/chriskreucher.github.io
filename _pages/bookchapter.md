@@ -43,27 +43,27 @@ author_profile: true
 </center><font size="-0.5">
 <ol id = "reverse_numbering">
 <li>
- K. Bell,  C. Kreucher,  A. Brandwie,  J. Johnson, <b>Fully Adaptive Radar Resource Allocation for Tracking and Classification</b>. K. Mishra,  M. Rangaswamy,  B. Shankar, editors, <em>Next Generation Cognitive Radar Systems</em>, Chapter 9, Pages 277-312. IET Press, December 2023. [<a href = "http://doi.org/10.1049/SBRA552E_ch9">WWW</a>] [<a href="../2023IET_Bell_preprint.pdf">PDF</a>]
+ K. Bell,  C. Kreucher,  A. Brandwie,  J. Johnson, <b>Fully Adaptive Radar Resource Allocation for Tracking and Classification</b>. K. Mishra,  M. Rangaswamy,  B. Shankar, editors, <em>Next Generation Cognitive Radar Systems</em>, Chapter 9, Pages 277-312. IET Press, December 2023. [<a href = "http://doi.org/10.1049/SBRA552E_ch9">WWW</a>] [<a href="../papers/2023IET_Bell_preprint.pdf">PDF</a>]
 </li>
 <br>
 <li>
- A. Charlish,  F. Hofmann,  K. Bell,  C. Kreucher, <b>Stochastic Optimization for Cognitive Radar</b>. K. Mishra,  M. Rangaswamy,  B. Shankar, editors, <em>Next Generation Cognitive Radar Systems</em>, Chapter 10, Pages 313-343. IET Press, December 2023. [<a href = "http://doi.org/10.1049/SBRA552E_ch10">WWW</a>] [<a href="../2023IET_Charlish_preprint.pdf">PDF</a>]
+ A. Charlish,  F. Hofmann,  K. Bell,  C. Kreucher, <b>Stochastic Optimization for Cognitive Radar</b>. K. Mishra,  M. Rangaswamy,  B. Shankar, editors, <em>Next Generation Cognitive Radar Systems</em>, Chapter 10, Pages 313-343. IET Press, December 2023. [<a href = "http://doi.org/10.1049/SBRA552E_ch10">WWW</a>] [<a href="../papers/2023IET_Charlish_preprint.pdf">PDF</a>]
 </li>
 <br>
 <li>
- M. Masarik,  C. Kreucher,  K. Weeks,  K. Simpson, <b>End-to-End ATR Leveraging Deep Learning</b>. M. Rysz,  A. Tsokas,  K. Dipple,  K. Fair,  P. Pardalos, editors, <em>Synthetic Aperture Radar (SAR) Data Applications</em>, Chapter 1, Pages 1-23. Springer, December 2022. [<a href = "http://doi.org/10.1007/978-3-031-21225-3_1">WWW</a>] [<a href="../2022Springer_preprint.pdf">PDF</a>]
+ M. Masarik,  C. Kreucher,  K. Weeks,  K. Simpson, <b>End-to-End ATR Leveraging Deep Learning</b>. M. Rysz,  A. Tsokas,  K. Dipple,  K. Fair,  P. Pardalos, editors, <em>Synthetic Aperture Radar (SAR) Data Applications</em>, Chapter 1, Pages 1-23. Springer, December 2022. [<a href = "http://doi.org/10.1007/978-3-031-21225-3_1">WWW</a>] [<a href="../papers/2022Springer_preprint.pdf">PDF</a>]
 </li>
 <br>
 <li>
- E. Chong,  C. Kreucher,  A. Hero, <b>POMDP Approximation Using Simulation and Heuristics</b>. A. Hero,  D. Castanon,  D. Cochran,  K. Kastella, editors, <em>Foundations and Applications of Sensor Management</em>, Chapter 5, Pages 95-120. Springer, January 2008. [<a href = "http://doi.org/10.1007/978-0-387-49819-5_5">WWW</a>] [<a href="../2008SpringerChapter5_pre.pdf">PDF</a>]
+ E. Chong,  C. Kreucher,  A. Hero, <b>POMDP Approximation Using Simulation and Heuristics</b>. A. Hero,  D. Castanon,  D. Cochran,  K. Kastella, editors, <em>Foundations and Applications of Sensor Management</em>, Chapter 5, Pages 95-120. Springer, January 2008. [<a href = "http://doi.org/10.1007/978-0-387-49819-5_5">WWW</a>] [<a href="../papers/2008SpringerChapter5_pre.pdf">PDF</a>]
 </li>
 <br>
 <li>
- C. Kreucher,  M. Morelande,  K. Kastella,  A. Hero, <b>Joint Multitarget Particle Filtering</b>. A. Hero,  D. Castanon,  D. Cochran,  K. Kastella, editors, <em>Foundations and Applications of Sensor Management</em>, Chapter 4, Pages 59-94. Springer, January 2008. [<a href = "http://doi.org/10.1007/978-0-387-49819-5_4">WWW</a>] [<a href="../2008SpringerChapter4_pre.pdf">PDF</a>]
+ C. Kreucher,  M. Morelande,  K. Kastella,  A. Hero, <b>Joint Multitarget Particle Filtering</b>. A. Hero,  D. Castanon,  D. Cochran,  K. Kastella, editors, <em>Foundations and Applications of Sensor Management</em>, Chapter 4, Pages 59-94. Springer, January 2008. [<a href = "http://doi.org/10.1007/978-0-387-49819-5_4">WWW</a>] [<a href="../papers/2008SpringerChapter4_pre.pdf">PDF</a>]
 </li>
 <br>
 <li>
- A. Hero,  C. Kreucher,  D. Blatt, <b>Information Theoretic Approaches to Sensor Management</b>. A. Hero,  D. Castanon,  D. Cochran,  K. Kastella, editors, <em>Foundations and Applications of Sensor Management</em>, Chapter 3, Pages 33-58. Springer, January 2008. [<a href = "http://doi.org/10.1007/978-0-387-49819-5_3">WWW</a>] [<a href="../2008SpringerChapter3_pre.pdf">PDF</a>]
+ A. Hero,  C. Kreucher,  D. Blatt, <b>Information Theoretic Approaches to Sensor Management</b>. A. Hero,  D. Castanon,  D. Cochran,  K. Kastella, editors, <em>Foundations and Applications of Sensor Management</em>, Chapter 3, Pages 33-58. Springer, January 2008. [<a href = "http://doi.org/10.1007/978-0-387-49819-5_3">WWW</a>] [<a href="../papers/2008SpringerChapter3_pre.pdf">PDF</a>]
 </li>
 <br>
 </ol>
