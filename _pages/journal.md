@@ -43,27 +43,27 @@ author_profile: true
 </center><font size="-0.5">
 <ol id = "reverse_numbering">
 <li>
- C. Kreucher,  K. Bell, <b>A Geodesic Flow Particle Filter for Non-Thresholded Radar Tracking</b>. <em>{IEEE} Transactions on Aerospace and Electronic Systems</em>, 54(6): 3169-3175, December 2018. [<a href = "http://doi.org/10.1109/TAES.2018.2845201">WWW</a>] [<a href="../papers/2018AES.pdf">PDF</a>]
+ C. Kreucher,  K. Bell, <b>A Geodesic Flow Particle Filter for Non-Thresholded Radar Tracking</b>. <em>IEEE Transactions on Aerospace and Electronic Systems</em>, 54(6): 3169-3175, December 2018. [<a href = "http://doi.org/10.1109/TAES.2018.2845201">WWW</a>] [<a href="../papers/2018AES.pdf">PDF</a>]
 </li>
 <br>
 <li>
- C. Kreucher,  M. Brennan, <b>A Compressive Sensing Approach to Multistatic Radar Change Imaging</b>. <em>{IEEE} Transactions on Geoscience and Remote Sensing</em>, 52(2): 1107-1112, February 2014. [<a href = "http://doi.org/10.1109/TGRS.2013.2247408">WWW</a>] [<a href="../papers/2014IEEE_GSRS.pdf">PDF</a>]
+ C. Kreucher,  M. Brennan, <b>A Compressive Sensing Approach to Multistatic Radar Change Imaging</b>. <em>IEEE Transactions on Geoscience and Remote Sensing</em>, 52(2): 1107-1112, February 2014. [<a href = "http://doi.org/10.1109/TGRS.2013.2247408">WWW</a>] [<a href="../papers/2014IEEE_GSRS.pdf">PDF</a>]
 </li>
 <br>
 <li>
- C. Kreucher, <b>Optimal Sensor Placement for a Constellation of Multistatic Narrowband Pixelated Sensors</b>. <em>{IEEE} Transactions on Systems, Man, and Cybernetics - Part C: Applications and Reviews</em>, 42(6): 1374-1383, November 2012. [<a href = "http://doi.org/10.1109/TSMCC.2012.2187187">WWW</a>] [<a href="../papers/2012TSMC.pdf">PDF</a>]
+ C. Kreucher, <b>Optimal Sensor Placement for a Constellation of Multistatic Narrowband Pixelated Sensors</b>. <em>IEEE Transactions on Systems, Man, and Cybernetics - Part C: Applications and Reviews</em>, 42(6): 1374-1383, November 2012. [<a href = "http://doi.org/10.1109/TSMCC.2012.2187187">WWW</a>] [<a href="../papers/2012TSMC.pdf">PDF</a>]
 </li>
 <br>
 <li>
- C. Kreucher,  B. Shapo, <b>Multitarget Detection and Tracking Using Multisensor Passive Acoustic Data</b>. <em>{IEEE} Journal of Oceanic Engineering</em>, 36(2): 205-218, April 2011. [<a href = "http://doi.org/10.1109/JOE.2011.2118630">WWW</a>] [<a href="../papers/2011JOE.pdf">PDF</a>]
+ C. Kreucher,  B. Shapo, <b>Multitarget Detection and Tracking Using Multisensor Passive Acoustic Data</b>. <em>IEEE Journal of Oceanic Engineering</em>, 36(2): 205-218, April 2011. [<a href = "http://doi.org/10.1109/JOE.2011.2118630">WWW</a>] [<a href="../papers/2011JOE.pdf">PDF</a>]
 </li>
 <br>
 <li>
- C. Kreucher, <b>Exploiting Narrowband Bistatic Radar Measurements for Dismount Detection and Tracking</b>. <em>{IEEE} Antennas and Propagation Magazine</em>, 53(1): 98-105, February 2011. [<a href = "http://doi.org/10.1109/MAP.2011.5773576">WWW</a>] [<a href="../papers/2011APMagazine.pdf">PDF</a>]
+ C. Kreucher, <b>Exploiting Narrowband Bistatic Radar Measurements for Dismount Detection and Tracking</b>. <em>IEEE Antennas and Propagation Magazine</em>, 53(1): 98-105, February 2011. [<a href = "http://doi.org/10.1109/MAP.2011.5773576">WWW</a>] [<a href="../papers/2011APMagazine.pdf">PDF</a>]
 </li>
 <br>
 <li>
- R. Bethel,  B. Shapo,  C. Kreucher, <b>{PDF} Target Detection and Tracking</b>. <em>Signal Processing</em>, 90(7): 2164-2176, July 2010. [<a href = "http://doi.org/10.1016/j.sigpro.2010.01.020">WWW</a>] [<a href="../papers/2010SignalProcessing.pdf">PDF</a>]
+ R. Bethel,  B. Shapo,  C. Kreucher, <b>PDF Target Detection and Tracking</b>. <em>Signal Processing</em>, 90(7): 2164-2176, July 2010. [<a href = "http://doi.org/10.1016/j.sigpro.2010.01.020">WWW</a>] [<a href="../papers/2010SignalProcessing.pdf">PDF</a>]
 </li>
 <br>
 <li>
@@ -71,11 +71,11 @@ author_profile: true
 </li>
 <br>
 <li>
- C. Kreucher,  A. Hero,  K. Kastella,  M. Morelande, <b>An Information-Based Approach to Sensor Management in Large Dynamic Networks</b>. <em>Proceedings of the {IEEE}, Special Issue on Estimation and Control of Large Scale Systems</em>, 95(5): 978-999, May 2007. [<a href = "http://doi.org/10.1109/JPROC.2007.893247">WWW</a>] [<a href="../papers/2007ProcIEEE.pdf">PDF</a>]
+ C. Kreucher,  A. Hero,  K. Kastella,  M. Morelande, <b>An Information-Based Approach to Sensor Management in Large Dynamic Networks</b>. <em>Proceedings of the IEEE, Special Issue on Estimation and Control of Large Scale Systems</em>, 95(5): 978-999, May 2007. [<a href = "http://doi.org/10.1109/JPROC.2007.893247">WWW</a>] [<a href="../papers/2007ProcIEEE.pdf">PDF</a>]
 </li>
 <br>
 <li>
- M. Morelande,  C. Kreucher,  K. Kastella, <b>A Bayesian Approach to Multiple Target Detection and Tracking</b>. <em>{IEEE} Transactions on Signal Processing</em>, 55(5): 1589-1604, May 2007. [<a href = "http://doi.org/10.1109/TSP.2006.889470">WWW</a>] [<a href="../papers/2007SP.pdf">PDF</a>]
+ M. Morelande,  C. Kreucher,  K. Kastella, <b>A Bayesian Approach to Multiple Target Detection and Tracking</b>. <em>IEEE Transactions on Signal Processing</em>, 55(5): 1589-1604, May 2007. [<a href = "http://doi.org/10.1109/TSP.2006.889470">WWW</a>] [<a href="../papers/2007SP.pdf">PDF</a>]
 </li>
 <br>
 <li>
@@ -83,11 +83,11 @@ author_profile: true
 </li>
 <br>
 <li>
- C. Kreucher,  K. Kastella,  A. Hero, <b>Multitarget Tracking using the Joint Multitarget Probability Density</b>. <em>{IEEE} Transactions on Aerospace and Electronic Systems</em>, 41(4): 1396-1414, October 2005. [<a href = "http://doi.org/10.1109/TAES.2005.1561892">WWW</a>] [<a href="../papers/2005AES_b.pdf">PDF</a>]
+ C. Kreucher,  K. Kastella,  A. Hero, <b>Multitarget Tracking using the Joint Multitarget Probability Density</b>. <em>IEEE Transactions on Aerospace and Electronic Systems</em>, 41(4): 1396-1414, October 2005. [<a href = "http://doi.org/10.1109/TAES.2005.1561892">WWW</a>] [<a href="../papers/2005AES_b.pdf">PDF</a>]
 </li>
 <br>
 <li>
- K. Kastella,  C. Kreucher, <b>Multiple model nonlinear filtering for low signal ground target applications</b>. <em>{IEEE} Transactions on Aerospace and Electronic Systems</em>, 41(2): 549-564, April 2005. [<a href = "http://doi.org/10.1109/TAES.2005.1468747">WWW</a>] [<a href="../papers/2005AES_a.pdf">PDF</a>]
+ K. Kastella,  C. Kreucher, <b>Multiple model nonlinear filtering for low signal ground target applications</b>. <em>IEEE Transactions on Aerospace and Electronic Systems</em>, 41(2): 549-564, April 2005. [<a href = "http://doi.org/10.1109/TAES.2005.1468747">WWW</a>] [<a href="../papers/2005AES_a.pdf">PDF</a>]
 </li>
 <br>
 <li>
@@ -95,7 +95,7 @@ author_profile: true
 </li>
 <br>
 <li>
- C. Kreucher,  S. Lakshmanan, <b>LANA : A Lane Extraction Algorithm that uses Frequency Domain Features</b>. <em>{IEEE} Transactions on Robotics and Automation</em>, 15(2): 343-350, April 1999. [<a href = "http://doi.org/10.1109/70.760356">WWW</a>] [<a href="../papers/1999IEEERA.pdf">PDF</a>]
+ C. Kreucher,  S. Lakshmanan, <b>LANA : A Lane Extraction Algorithm that uses Frequency Domain Features</b>. <em>IEEE Transactions on Robotics and Automation</em>, 15(2): 343-350, April 1999. [<a href = "http://doi.org/10.1109/70.760356">WWW</a>] [<a href="../papers/1999IEEERA.pdf">PDF</a>]
 </li>
 <br>
 </ol>
