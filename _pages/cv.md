@@ -6,7 +6,6 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
 <font size="-0.5">
 
   
