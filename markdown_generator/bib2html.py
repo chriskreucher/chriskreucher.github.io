@@ -146,7 +146,7 @@ def main():
         if article_type.upper() == "JOURNAL":
 
             auth, mess      = get_names(ba, mess, "author")
-            title, mess     = get(b, mess, "title").replace("{", "").replace("}","").replace("\\","")) 
+            title, mess     = get(b, mess, "title").replace("{", "").replace("}","").replace("\\","") 
             journal, mess   = get(b, mess, "journal").replace("{", "").replace("}","")
             volume, mess    = get(b, mess, "volume")
             number, mess    = get(b, mess, "number")
