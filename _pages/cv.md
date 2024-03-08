@@ -6,8 +6,6 @@ redirect_from:
   - /resume
 ---
 
-<font size="-0.5">
-
   
 Education
 =========
