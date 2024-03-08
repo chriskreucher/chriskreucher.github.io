@@ -1,4 +1,3 @@
-
 ---
 title: "paper 1"
 collection: teaching
