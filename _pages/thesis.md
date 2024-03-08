@@ -47,7 +47,7 @@ author_profile: true
 </li>
 <br>
 <li>
- C. Kreucher, <b>A Tool for Query and Analysis of MPEG Encoded Video</b> Masters Thesis The University of Michigan, Dearborn May 1998. [<a href="../papers/1998MastersThesis.pdf">PDF</a>]
+ C. Kreucher, <b>A Tool for Query and Analysis of {MPEG} Encoded Video</b> Masters Thesis The University of Michigan, Dearborn May 1998. [<a href="../papers/1998MastersThesis.pdf">PDF</a>]
 </li>
 <br>
 </ol>

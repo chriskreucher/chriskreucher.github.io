@@ -167,7 +167,7 @@ author_profile: true
 </li>
 <br>
 <li>
- C. Kreucher,  J. Stayman,  B. Shapo,  M. Stuff, <b>Exploiting A Constellation of Narrowband RF Sensors to Detect and Track Moving Targets</b>. <em>The Proceedings of the 44th Asilomar Conference on Signals, Systems and Computers</em>,  Pages 1966-1970, November 2010. [<a href = "http://doi.org/10.1109/ACSSC.2010.5757884">WWW</a>] [<a href="../papers/2010Asilomar.pdf">PDF</a>]
+ C. Kreucher,  J. Stayman,  B. Shapo,  M. Stuff, <b>Exploiting A Constellation of Narrowband {RF} Sensors to Detect and Track Moving Targets</b>. <em>The Proceedings of the 44th Asilomar Conference on Signals, Systems and Computers</em>,  Pages 1966-1970, November 2010. [<a href = "http://doi.org/10.1109/ACSSC.2010.5757884">WWW</a>] [<a href="../papers/2010Asilomar.pdf">PDF</a>]
 </li>
 <br>
 <li>
