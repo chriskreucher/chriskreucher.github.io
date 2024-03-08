@@ -159,7 +159,7 @@ author_profile: true
 </li>
 <br>
 <li>
- M. Brennan,  C. Kreucher,  B. Shapo, <b>Multistatic Radar Change Detection Using A Sparse Imaging Approach</b>. <em>Proceedings of the 2012 IEEE Radar Conference</em>,  Pages 45-50, May 2012. [<a href = "http://doi.org/10.1109/RADAR.2012.6212109">WWW</a>] [<a href="../papers/2012IEEE_RadarCon.pdf">PDF</a>]
+ M. Brennan,  C. Kreucher,  B. Shapo, <b>Multistatic Radar Change Detection Using A Sparse Imaging Approach</b>. <em>Proceedings of the 2012 IEEE Radar Conference</em>,  Pages 45-50, May 2012. [<a href = "http://doi.org/10.1109/RADAR.2012.6212109">WWW</a>] [<a href="../papers/2012RadarCon.pdf">PDF</a>]
 </li>
 <br>
 <li>
