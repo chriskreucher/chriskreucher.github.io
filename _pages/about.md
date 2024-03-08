@@ -6,7 +6,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Senior Technical Fellow and Analytics & Exploitation Group Lead at <a href = "www.kbr.com" KBR </a> (formerly Integrity Applications Incorporated) in Ann Arbor, Michigan. From 1998 to 2008, 
+I am a Senior Technical Fellow and Analytics & Exploitation Group Lead at [KBR](www.kbr.com) (formerly Integrity Applications Incorporated) in Ann Arbor, Michigan. From 1998 to 2008, 
 I was a Staff Scientist at General Dynamics Advanced Information Systems' Michigan 
 Research & Development Facility (formerly ERIM). 
 
