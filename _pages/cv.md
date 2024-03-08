@@ -6,7 +6,7 @@ author_profile: true
 
 {% include base_path %}
 
-<span style="font-size:4em;">
+<span style=font-size:20px>
 
 Education
 =========
@@ -18,7 +18,7 @@ Education
 
 </span>
 
-<span style="font-size:1em;">
+<span style=font-size:10px>
 
 
 Work experience
