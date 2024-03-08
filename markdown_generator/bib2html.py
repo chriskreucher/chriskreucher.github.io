@@ -130,10 +130,8 @@ def populate_footer( f ):
     f.write("""\nOther documents are (c) SPIE. These documents are made available as an electronic reprint with 
         permission of SPIE. One print or electronic copy may be made for personal use only. Systematic or multiple 
         reproduction, distribution to multiple locations via electronic or other means, duplication of any material 
-        in this paper for a fee or for commercial purposes, or modification of the content of the paper are prohibited""")
-    f.write("\n</em></p> ");
-    f.write('\n</body>')
-    f.write('\n</html>')
+        in this paper for a fee or for commercial purposes, or modification of the content of the paper are prohibited.""")
+    f.write("\n</em></p> ");    
 
 
 def main():
