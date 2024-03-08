@@ -30,10 +30,21 @@ Work experience
   * Adjunct Lecturer, Dearborn Campus
   * Taught ECE 500 (Graduate-level Mathematical Methods for Electrical Engineers); ECE 210 (Circuits I); ECE 273 (Digital Logic Design); ECE 460 and ME 442 (Control Systems Analysis and Design)  
   
-Skills
-======
-* Skill 1
-* Skill 2
+Selected Awards and Honors
+==========================
+* Named to IMPACT board of Advisors, 2023
+* Named to Inaugural Class of ONE KBR Technical Fellows, 2021
+* Named Centauri Technical Fellow, 2019 
+* Centauri Gold Medal Paper Award, 2020 for paper “SAR-ATR Using Only Synthetic Training Data”. 
+* KBR (Centauri, IAI) Technical Journal Paper Selections 2011-2023 for papers on information theory, machine learning, ATR, detection, tracking, and imaging.
+* Recipient of August 2013 IAI Commendation for leading efforts “to obtain and process classified data resulting in IAI being ahead of schedule on our very challenging set of technical requirements”
+* Winner of MITRE’s 2010 Ronald Fante Best Paper Awards for paper “PDF Target Detection and Tracking” (Joint paper with R. Bethel of MITRE).
+* Recipient of November 2009 IAI Above and Beyond Award for “conceiving, prototyping, and demonstrating and innovative solution to a Spacecraft Anomaly”.
+* Recipient of April 2009 IAI Above and Beyond Award given to a team that wrote a winning proposal for “new radar concepts based on compressed sensing, tracking, and target modeling”.
+* GD-AIS Paper Medal Award Winner 2003, 2005, 2006 for papers “Multi-target Sensor Management Using Alpha Divergence Measures” (2003), “Multitarget Tracking using the Joint Multitarget Probability Density” (2005), and “Adaptive Multi-modality Sensor Scheduling for Detection and Tracking of Smart Targets” (2006).
+* Veridian Medal Paper Award Winner 2000, 2002 for papers “Nonlinear Filtering for Ground Target Applications” (2000), and “Multiple model nonlinear filtering for low signal ground target applications” (2002).
+
+
   * Sub-skill 2.1
   * Sub-skill 2.2
   * Sub-skill 2.3
