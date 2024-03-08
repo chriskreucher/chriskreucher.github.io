@@ -60,7 +60,7 @@ def populate_header( nm, f, unique_years, unique_types):
             f.write('\n<a href="../' + typ + '/"><button type="button" class="btn" style="outline:none"> ' + typ + '</button></a>')
     f.write('\n</center>')
 
-    f.write("\n<br>")
+    #f.write("\n<br>")
     f.write('\n<center>')
 
     i=0
