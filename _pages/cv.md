@@ -7,14 +7,13 @@ author_profile: true
 {% include base_path %}
 
 Education
-===
+=========
 * Ph.D in Electrical Engineering (Systems), The University of Michigan, 2005
   Dissertation: An Information Theoretic Approach to Sensor Resource Allocation
-  Advisor: [Professor Alfred O. Hero III] (https://hero.engin.umich.edu/)
+  Advisor: [Professor Alfred O. Hero III](https://hero.engin.umich.edu/)
 * M.S. in Electrical Engineering (Systems), The University of Michigan, 1998
 * B.S. in Electrical Engineering (Systems), The University of Michigan, 1997
 
-<font size="-0.5">
 
 Work experience
 ===============
@@ -23,7 +22,7 @@ Work experience
   * Senior Techncial Fellow: I am responsible for directing activities that will advance the state of the art, anticipating customer needs, assisting in internal funding decisions, and fostering internal techncial excellence through mentoring and recruiting
   * Group Lead: I manage a mid-size team of PhDs, including program assignment, mentoring, and performance evaluation
 
-* 1998-2007: General Dynamics (formerly [ERIM](https://en.wikipedia.org/wiki/Environmental_Research_Institute_of_Michigan)
+* 1998-2007: General Dynamics (formerly [ERIM](https://en.wikipedia.org/wiki/Environmental_Research_Institute_of_Michigan))
   * Staff Scientist: PI/Technical lead for a number of Fusion, Filtering, and Sensor Management efforts. 
   
 * 1998-2002: The University of Michigan
