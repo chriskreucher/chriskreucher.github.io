@@ -277,9 +277,9 @@ def main():
             fname = '_publications/publication-' + str(i) + '.md'
             pub = open( fname ,'w')
             pub.write('---')
-            pub.write('\npaper_title :"' + titles[i]) + '"'
-            pub.write('\npdf_link : "' + pdfs[i]) + '"'
-            pub.write('\nwww_link : "' + wwws[i]) + '"'
+            pub.write('\npaper_title :"' + titles[i] + '"' )
+            pub.write('\npdf_link : "' + pdfs[i] + '"' )
+            pub.write('\nwww_link : "' + wwws[i] + '"' )
             pub.write('\n---')
             pub.close()
     populate_footer( all_html )
