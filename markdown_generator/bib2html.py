@@ -128,6 +128,9 @@ def main():
 
 
     entries = list()
+    titles = list()
+    wwws = list()
+    pdfs = list()
     all_years = list()
     all_types = list()
 
@@ -154,6 +157,9 @@ def main():
 
             out_string = auth + '<b>' + title + '</b>. <em>' + journal + '</em>, ' + volume + \
                 '(' + number + '): ' + pages + ', ' + month + ' ' + year + '. ' 
+            titles.append(out_string)
+            wwws.append(www)
+            pdfs.append(pdf)
             if not (www==""): out_string = out_string + '[<a href = "http://' + www + '">WWW</a>] '
             out_string = out_string + '[<a href="' + pdf + '">PDF</a>]'
 
@@ -179,6 +185,9 @@ def main():
             out_string = auth + '<b>' + title + '</b>. <em>' + booktitle + '</em>, '
             if not(pages==""): out_string = out_string + ' Pages ' + pages + ', '
             out_string = out_string + month + ' ' + year + '. ' 
+            titles.append(out_string)
+            wwws.append(www)
+            pdfs.append(pdf)
             if not (www==""): out_string = out_string + '[<a href = "http://' + www + '">WWW</a>] '
             if not (pdf==""): out_string = out_string + '[<a href="' + pdf + '">PDF</a>]'
             
@@ -206,6 +215,9 @@ def main():
             out_string = auth + '<b>' + title + '</b>.' + editors + 'editors, <em>' + \
                     booktitle + '</em>, Chapter ' + chapter + ', Pages ' + pages + \
                     '. ' + publisher + ', ' + month + ' ' + year + '. '
+            titles.append(out_string)
+            wwws.append(www)
+            pdfs.append(pdf)
             if not (www==""): out_string = out_string + '[<a href = "http://' + www + '">WWW</a>] '
             out_string = out_string + '[<a href="' + pdf + '">PDF</a>]'
 
@@ -229,6 +241,9 @@ def main():
 
             out_string = auth + '<b>' + title + '</b> ' + typ + ' ' \
                     + school + ' ' +  month + ' ' + year + '. '
+            titles.append(out_string)
+            wwws.append(www)
+            pdfs.append(pdf)
             if not (www==""): out_string = out_string + '[<a href = "http://' + www + '">WWW</a>] '
             out_string = out_string + '[<a href="' + pdf + '">PDF</a>]'
 
@@ -258,6 +273,15 @@ def main():
     populate_header('complete-bibliography', all_html, unique_years, unique_types)
     for i in range(0,len(entries)):        
         write_item(all_html, entries[i])
+        if i<5: # write out the most recent five to the CV page
+            fname = '_publications/publication-' + str(i)
+            pub = open( fname ,'w')
+            pub.write('---')
+            pub.write('paper_title : "' + titles[i])
+            pub.write('pdf_link : "' + pdf[i])
+            pub.write('www_link : "' + www[i])
+            pub.write('\n---')
+            pub.close()
     populate_footer( all_html )
     all_html.close()
 
