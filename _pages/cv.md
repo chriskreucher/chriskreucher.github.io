@@ -30,6 +30,13 @@ Work experience
   * Taught ECE 500 (Graduate-level Mathematical Methods for Electrical Engineers); ECE 210 (Circuits I); ECE 273 (Digital Logic Design); ECE 460 and ME 442 (Control Systems Analysis and Design)  
 
   
+Recent Publications
+============
+  <ul>{% for post in site.publications %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+
+
 Selected Awards and Honors
 ==========================
 * Named to IMPACT board of Advisors, 2023
@@ -44,10 +51,4 @@ Selected Awards and Honors
 * GD-AIS Paper Medal Award Winner 2003, 2005, 2006 for papers “Multi-target Sensor Management Using Alpha Divergence Measures” (2003), “Multitarget Tracking using the Joint Multitarget Probability Density” (2005), and “Adaptive Multi-modality Sensor Scheduling for Detection and Tracking of Smart Targets” (2006).
 * Veridian Medal Paper Award Winner 2000, 2002 for papers “Nonlinear Filtering for Ground Target Applications” (2000), and “Multiple model nonlinear filtering for low signal ground target applications” (2002).
 
-
-Recent Publications
-============
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
 
