@@ -39,16 +39,6 @@ def get_title( b, mess ):
         mess = mess + " missing title" 
     return pub_title, mess
 
-
-def get_journal( b, mess ):
-    pub_journal = ""
-    try:
-        pub_journal = b["journal"].replace("{", "").replace("}","")
-    except:
-        mess = mess + " missing journal"
-    return pub_journal, mess    
-    
-
 def get_names( b, mess, key ):
     out = ""
     try:
@@ -156,8 +146,8 @@ def main():
         if article_type.upper() == "JOURNAL":
 
             auth, mess      = get_names(ba, mess, "author")
-            title, mess     = get_title(b, mess)
-            journal, mess   = get_journal(b, mess)
+            title, mess     = get(b, mess, "title").replace("{", "").replace("}","").replace("\\","")) 
+            journal, mess   = get(b, mess, "journal").replace("{", "").replace("}","")
             volume, mess    = get(b, mess, "volume")
             number, mess    = get(b, mess, "number")
             pages, mess     = get(b, mess, "pages")
@@ -181,10 +171,10 @@ def main():
 
         elif article_type.upper() == "CONFERENCE":
             auth, mess      = get_names(ba, mess, "author")
-            title, mess     = get_title(b, mess)
+            title, mess     = get(b, mess, "title").replace("{", "").replace("}","").replace("\\","")) 
+            booktitle, mess = get(b, mess, "booktitle").replace("{", "").replace("}","")
             month, mess     = get(b, mess, "month")
             year, mess      = get(b, mess, "year")
-            booktitle, mess = get(b, mess, "booktitle")
             www, mess       = get(b, mess, "url")
             pdf, mess       = get(b, mess, "pdf")
             pages, mess     = get(b, mess, "pages")
@@ -206,9 +196,9 @@ def main():
 
         elif article_type.upper() == "BOOKCHAPTER":
             auth, mess      = get_names(ba, mess, "author")
-            title, mess     = get_title(b, mess)
+            title, mess     = get(b, mess, "title").replace("{", "").replace("}","").replace("\\","")) 
             editors, mess   = get_names(ba, mess, "editor")
-            booktitle, mess = get(b, mess, "booktitle")
+            booktitle, mess = get(b, mess, "booktitle").replace("{", "").replace("}","")
             chapter, mess   = get(b, mess, "chapter")
             pages, mess     = get(b, mess, "pages")
             publisher, mess = get(b, mess, "publisher")
@@ -233,7 +223,7 @@ def main():
 
         elif article_type.upper() == "THESIS":
             auth, mess      = get_names(ba, mess, "author");
-            title, mess     = get_title(b, mess);
+            title, mess     = get(b, mess, "title").replace("{", "").replace("}","").replace("\\","")) 
             month, mess     = get(b, mess, "month")
             year, mess      = get(b, mess, "year")
             www, mess       = get(b, mess, "url")
