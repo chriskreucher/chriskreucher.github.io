@@ -45,14 +45,17 @@ def get_names( b, mess, key ):
 def populate_header( nm, f, unique_years, unique_types):
     f.write('---');
     f.write('\nlayout: archive');
-    #f.write('\ntitle: "' + str(nm) + '"');
     f.write('\npermalink: ' + str(nm) + '/');
     f.write('\nauthor_profile: true');
     f.write('\n---');
     f.write('\n');
 
     f.write('\n<center>')
-    f.write('\n<a href="../complete-bibliography/"><button type="button" class="btn" style="outline:none"> all </button></a>')
+    if nm in unique_types:
+        f.write('\n<a href="../complete-bibliography/"><button type="button" class="btn" style="outline:none"> all </button></a>')        
+    else:
+        f.write('\n<a href="../complete-bibliography/"><button type="button" class="button button3" style="outline:none"> all </button></a>')
+
     for typ in unique_types:
         if typ == nm:
             f.write('\n<a href="../' + typ + '/"><button type="button" class="button button3" style="outline:none"> ' + typ + '</button></a>')
