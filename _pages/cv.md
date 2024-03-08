@@ -4,6 +4,8 @@ permalink: /cv/
 author_profile: true
 ---
 
+{% include base_path %}
+
 Education
 ===
 * Ph.D in Electrical Engineering (Systems), The University of Michigan, 2005
