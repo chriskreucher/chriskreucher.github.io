@@ -63,7 +63,7 @@ author_profile: true
 </li>
 <br>
 <li>
- M. Masarik,  C. Kreucher,  K. Weeks,  K. Simpson, <b>End-to-End ATR Leveraging Deep Learning</b>. M. Rysz,  A. Tsokas,  K. Dipple,  K. Fair,  P. Pardalos, editors, <em>Synthetic Aperture Radar (SAR) Data Applications</em>, Chapter 1, Pages 1-23. Springer, December 2022. [<a href = "http://doi.org/10.1007/978-3-031-21225-3_1">WWW</a>] [<a href="../papers/2022Springer_preprint.pdf">PDF</a>]
+ M. Masarik,  C. Kreucher,  K. Weeks,  K. Simpson, <b>End-to-End ATR Leveraging Deep Learning</b>. M. Rysz,  A. Tsokas,  K. Dipple,  K. Fair,  P. Pardalos, editors, <em>Synthetic Aperture Radar (SAR) Data Applications</em>, Chapter 1, Pages 1-23. Springer, December 2022. [<a href = "http://doi.org/10.1007/978-3-031-21225-3_1">WWW</a>] [<a href="../papers/2022Springer_Chapter.pdf">PDF</a>]
 </li>
 <br>
 <li>
@@ -435,7 +435,5 @@ Some of these documents are (c) IEEE. Personal use of this material is permitted
 Other documents are (c) SPIE. These documents are made available as an electronic reprint with 
         permission of SPIE. One print or electronic copy may be made for personal use only. Systematic or multiple 
         reproduction, distribution to multiple locations via electronic or other means, duplication of any material 
-        in this paper for a fee or for commercial purposes, or modification of the content of the paper are prohibited
+        in this paper for a fee or for commercial purposes, or modification of the content of the paper are prohibited.
 </em></p> 
-</body>
-</html>
