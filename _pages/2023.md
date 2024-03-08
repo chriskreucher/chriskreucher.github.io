@@ -5,7 +5,7 @@ author_profile: true
 ---
 
 <center>
-<a href="../complete-bibliography/"><button type="button" class="btn" style="outline:none"> all </button></a>
+<a href="../complete-bibliography/"><button type="button" class="button button3" style="outline:none"> all </button></a>
 <a href="../bookchapter/"><button type="button" class="btn" style="outline:none"> bookchapter</button></a>
 <a href="../conference/"><button type="button" class="btn" style="outline:none"> conference</button></a>
 <a href="../journal/"><button type="button" class="btn" style="outline:none"> journal</button></a>
