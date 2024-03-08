@@ -18,10 +18,10 @@ Education
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* 2008-Present: [KBR](http://kbr.com)
+  * Senior Scientist: I fill PI and PM roles for detection, tracking, classification, fusion and AI/ML research efforts from DoD/IC components including DARPA, AFRL, NGA-R and other uSG
+  * Senior Techncial Fellow: I am responsible for directing activities that will advance the state of the art, anticipating customer needs, assisting in internal funding decisions, and fostering internal techncial excellence through mentoring and recruiting
+  * Group Lead: I manage a mid-size team of PhDs, including program assignment, mentoring, and performance evaluation
 
 * Fall 2015: Research Assistant
   * Github University
