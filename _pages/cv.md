@@ -59,19 +59,3 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-
-
-Portfolio
-========
-  <ul>{% for post in site.portfolio reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-
-
-
-Posts
-========
-  <ul>{% for post in site.posts reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-
