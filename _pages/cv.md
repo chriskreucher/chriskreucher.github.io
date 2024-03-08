@@ -7,7 +7,7 @@ redirect_from:
 ---
 
   
-Education
+xxx
 =========
 * Ph.D in Electrical Engineering (Systems), The University of Michigan, 2005
   Dissertation: An Information Theoretic Approach to Sensor Resource Allocation
