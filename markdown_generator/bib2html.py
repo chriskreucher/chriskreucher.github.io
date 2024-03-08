@@ -31,14 +31,6 @@ def get( b, mess, key ):
     return out, mess
 
 
-def get_title( b, mess ):
-    pub_title = ""
-    try:
-        pub_title = html_escape(b["title"].replace("{", "").replace("}","").replace("\\","")) 
-    except:
-        mess = mess + " missing title" 
-    return pub_title, mess
-
 def get_names( b, mess, key ):
     out = ""
     try:
@@ -171,7 +163,7 @@ def main():
 
         elif article_type.upper() == "CONFERENCE":
             auth, mess      = get_names(ba, mess, "author")
-            title, mess     = get(b, mess, "title").replace("{", "").replace("}","").replace("\\","")) 
+            title, mess     = get(b, mess, "title").replace("{", "").replace("}","").replace("\\","")
             booktitle, mess = get(b, mess, "booktitle").replace("{", "").replace("}","")
             month, mess     = get(b, mess, "month")
             year, mess      = get(b, mess, "year")
@@ -196,7 +188,7 @@ def main():
 
         elif article_type.upper() == "BOOKCHAPTER":
             auth, mess      = get_names(ba, mess, "author")
-            title, mess     = get(b, mess, "title").replace("{", "").replace("}","").replace("\\","")) 
+            title, mess     = get(b, mess, "title").replace("{", "").replace("}","").replace("\\","")
             editors, mess   = get_names(ba, mess, "editor")
             booktitle, mess = get(b, mess, "booktitle").replace("{", "").replace("}","")
             chapter, mess   = get(b, mess, "chapter")
@@ -223,7 +215,7 @@ def main():
 
         elif article_type.upper() == "THESIS":
             auth, mess      = get_names(ba, mess, "author");
-            title, mess     = get(b, mess, "title").replace("{", "").replace("}","").replace("\\","")) 
+            title, mess     = get(b, mess, "title").replace("{", "").replace("}","").replace("\\","")
             month, mess     = get(b, mess, "month")
             year, mess      = get(b, mess, "year")
             www, mess       = get(b, mess, "url")
