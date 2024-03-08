@@ -34,16 +34,9 @@
       {% if post.link %}
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
+        C-{{ paper_title }}
+        F-{{ linky_link }}
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">DEF</a>
-        A-location
-        B-{location}
-        C-{{ location }}
-        D-title
-        E-{title}
-        F-{{ title }}
-        G-tag
-        H-{tag}
-        I-{{ tag }}
       {% endif %}
     </h3>
     {% if post.read_time %}
