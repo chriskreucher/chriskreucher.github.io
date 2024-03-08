@@ -6,7 +6,6 @@ redirect_from:
   - /resume
 ---
 
-  
 Education
 ===
 * Ph.D in Electrical Engineering (Systems), The University of Michigan, 2005
