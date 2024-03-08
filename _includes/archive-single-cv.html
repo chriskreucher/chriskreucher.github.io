@@ -8,9 +8,12 @@
 
 {% if post.id %}
   {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+  {% assign location = post.location %}
+  {% assign tag = post.tag %}
 {% else %}
   {% assign title = post.title %}
   {% assign location = post.location %}
+  {% assign tag = post.tag %}
 {% endif %}
 
 <div class="{{ include.type | default: "list" }}__item">
@@ -34,10 +37,13 @@
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">DEF</a>
         A-location
         B-{location}
-        C-{{location}}
+        C-{{ location }}
         D-title
         E-{title}
         F-{{ title }}
+        G-tag
+        H-{tag}
+        I-{{ tag }}
       {% endif %}
     </h3>
     {% if post.read_time %}
