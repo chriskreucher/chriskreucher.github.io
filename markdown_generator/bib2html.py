@@ -36,7 +36,7 @@ def get_title( b, mess ):
     try:
         pub_title = html_escape(b["title"].replace("{", "").replace("}","").replace("\\","")) 
     except:
-        mess = mess + " missing title"
+        mess = mess + " missing title" 
     return pub_title, mess
 
 
