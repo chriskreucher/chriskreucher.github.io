@@ -14,6 +14,7 @@ Education
 * M.S. in Electrical Engineering (Systems), The University of Michigan, 1998
 * B.S. in Electrical Engineering (Systems), The University of Michigan, 1997
 
+<font size="-0.5">
 
 Work experience
 ===============
