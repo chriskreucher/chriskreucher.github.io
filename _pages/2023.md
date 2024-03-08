@@ -51,7 +51,7 @@ author_profile: true
 </li>
 <br>
 <li>
- C. Kreucher, <b>SAR-ATR Using EO-based Deep Networks</b>. <em>Proceedings of the 2023 IEEE Radar Conference</em>,  Pages 1-5, May 2023. [<a href = "http://doi.org/10.1109/RadarConf2351548.2023.10149584">WWW</a>] [<a href="../2023RadarCon.pdf">PDF</a>]
+ C. Kreucher, <b>SAR-ATR Using EO-based Deep Networks</b>. <em>Proceedings of the 2023 IEEE Radar Conference</em>,  Pages 1-5, May 2023. [<a href = "http://doi.org/10.1109/RadarConf2351548.2023.10149584">WWW</a>] [<a href="papers/2023RadarCon_official.pdf">PDF</a>]
 </li>
 <br>
 <li>
