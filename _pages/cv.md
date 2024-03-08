@@ -7,8 +7,8 @@ redirect_from:
 ---
 
   
-xxx
-=========
+Education
+===
 * Ph.D in Electrical Engineering (Systems), The University of Michigan, 2005
   Dissertation: An Information Theoretic Approach to Sensor Resource Allocation
   Advisor: [Professor Alfred O. Hero III] (https://hero.engin.umich.edu/)
