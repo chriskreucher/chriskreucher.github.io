@@ -51,6 +51,13 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
+
+TEST
+========
+  <ul>{% for post in site.talks reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+  
   
 Teaching
 ========
