@@ -7,7 +7,7 @@ redirect_from:
 ---
 
 {% include base_path %}
-
+</center><font size="-0.5">
 Education
 ======
 * Ph.D in Electrical Engineering (Systems), The University of Michigan, 2005
