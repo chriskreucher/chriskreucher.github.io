@@ -13,8 +13,8 @@ Education
 * Ph.D in Electrical Engineering (Systems), The University of Michigan, 2005
   Dissertation: An Information Theoretic Approach to Sensor Resource Allocation
   Advisor: [Professor Alfred O. Hero III](https://hero.engin.umich.edu/)
-* M.S. in Electrical Engineering (Systems), The University of Michigan, 1998
-* B.S. in Electrical Engineering (Systems), The University of Michigan, 1997
+* M.S. in Electrical Engineering, The University of Michigan, 1998
+* B.S. in Electrical Engineering, The University of Michigan, 1997
 
 
 Work experience
