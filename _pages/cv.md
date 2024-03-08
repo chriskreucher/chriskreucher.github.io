@@ -15,6 +15,13 @@ Education
 * B.S. in Electrical Engineering, The University of Michigan, 1997
 
 
+Recent Publications
+============
+  <ul>{% for post in site.papers reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+
+  
 Work experience
 ===============
 * 2008-Present: [KBR](https://kbr.com) (formerly Integrity Applications, Incorporated)
@@ -44,20 +51,6 @@ Selected Awards and Honors
 * GD-AIS Paper Medal Award Winner 2003, 2005, 2006 for papers “Multi-target Sensor Management Using Alpha Divergence Measures” (2003), “Multitarget Tracking using the Joint Multitarget Probability Density” (2005), and “Adaptive Multi-modality Sensor Scheduling for Detection and Tracking of Smart Targets” (2006).
 * Veridian Medal Paper Award Winner 2000, 2002 for papers “Nonlinear Filtering for Ground Target Applications” (2000), and “Multiple model nonlinear filtering for low signal ground target applications” (2002).
 
-
-Publications
-============
-  <ul>{% for post in site.papers reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-
-
-TEST
-========
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
   
 Teaching
 ========
