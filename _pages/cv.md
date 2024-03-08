@@ -7,8 +7,7 @@ author_profile: true
 {% include base_path %}
 <span style="font-size:0.5em;">
 Text 2222 goes here
-</span>
-<span style=font-size:20px>
+
 
 Education
 =========
@@ -17,11 +16,7 @@ Education
   Advisor: [Professor Alfred O. Hero III](https://hero.engin.umich.edu/)
 * M.S. in Electrical Engineering, The University of Michigan, 1998
 * B.S. in Electrical Engineering, The University of Michigan, 1997
-
 </span>
-
-<span style=font-size:10px>
-
 
 Work experience
 ===============
@@ -65,6 +60,3 @@ Teaching
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-
-  
-</span>
