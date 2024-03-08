@@ -18,16 +18,15 @@ Education
 Work experience
 ===============
 * 2008-Present: [KBR](https://kbr.com) (formerly Integrity Applications, Incorporated)
-  * Senior Scientist: I fill PI and PM roles for detection, tracking, classification, fusion and AI/ML research efforts from DoD/IC components including DARPA, AFRL, NGA-R and other USG
-  * Senior Techncial Fellow: I am responsible for directing activities that will advance the state of the art, anticipating customer needs, assisting in internal funding decisions, and fostering internal techncial excellence through mentoring and recruiting
-  * Group Lead: I manage a mid-size team of PhDs, including program assignment, mentoring, and performance evaluation
+  * _Senior Scientist_: I fill PI and PM roles for detection, tracking, classification, fusion and AI/ML research efforts from DoD/IC components including DARPA, AFRL, NGA-R and other USG
+  * _Senior Techncial Fellow_: I am responsible for directing activities that will advance the state of the art, anticipating customer needs, assisting in internal funding decisions, and fostering internal techncial excellence through mentoring and recruiting
+  * _Group Lead_: I manage a mid-size team of PhDs, including program assignment, mentoring, and performance evaluation
 
 * 1998-2007: General Dynamics (formerly [ERIM](https://en.wikipedia.org/wiki/Environmental_Research_Institute_of_Michigan))
-  * Staff Scientist: PI/Technical lead for a number of Fusion, Filtering, and Sensor Management efforts. 
+  * _Staff Scientist_: PI/Technical lead for a number of Fusion, Filtering, and Sensor Management efforts. 
   
 * 1998-2002: The University of Michigan
-  * Adjunct Lecturer, Dearborn Campus
-  * Taught ECE 500 (Graduate-level Mathematical Methods for Electrical Engineers); ECE 210 (Circuits I); ECE 273 (Digital Logic Design); ECE 460 and ME 442 (Control Systems Analysis and Design)  
+  * _Adjunct Lecturer_, Dearborn Campus : Taught ECE 500 (Graduate-level Mathematical Methods for Electrical Engineers); ECE 210 (Circuits I); ECE 273 (Digital Logic Design); ECE 460 and ME 442 (Control Systems Analysis and Design)  
 
   
 Recent Publications
