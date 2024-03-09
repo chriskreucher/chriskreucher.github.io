@@ -12,6 +12,6 @@ I taught ECE 210, ECE 273, ECE 365, ECE 460, and ECE 500 at one time or another.
 Students are directed to these links which contain solutions to old quizzes, exams, 
 homeworks, and lab assignments.
 
-{% for post in site.teaching reversed %}
+{% for post in site.teaching %}
   {% include archive-single.html %}
 {% endfor %}
