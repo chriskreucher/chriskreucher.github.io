@@ -39,7 +39,7 @@ Recent Publications
 Selected Awards and Honors
 ==========================
 * Named to IMPACT board of Advisors, 2023
-* Named to Inaugural Class of ONE KBR Technical Fellows, 2021
+* Named to Inaugural Class of [ONE KBR Technical Fellows](https://www.kbr.com/en/who-we-are/our-people/technical-fellows), 2021
 * Named Centauri Technical Fellow, 2019 
 * Centauri Gold Medal Paper Award, 2020 for paper “SAR-ATR Using Only Synthetic Training Data”. 
 * KBR (Centauri, IAI) Technical Journal Paper Selections 2011-2023 for papers on information theory, machine learning, ATR, detection, tracking, and imaging.
