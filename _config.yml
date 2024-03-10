@@ -72,6 +72,8 @@ author:
   youtube          : # Username
   zhihu            : # URL
 
+# Google Analytics
+google_analytics: G-GC0NJCF1F1
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -137,7 +139,7 @@ social:
 analytics:
   provider               :  "google-universal" # false (default), "google", "google-universal", "google-analytics-4", "custom"
   google:
-    tracking_id          :
+    tracking_id          : G-GC0NJCF1F1
 
 
 # Reading Files
