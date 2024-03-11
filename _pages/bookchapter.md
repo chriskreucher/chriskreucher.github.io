@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: archive-no-title
 permalink: bookchapter/
 author_profile: true
 title: Chris Kreucher bookchapter publications

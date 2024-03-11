@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: archive-no-title
 permalink: complete-bibliography/
 author_profile: true
 title: Chris Kreucher complete-bibliography publications

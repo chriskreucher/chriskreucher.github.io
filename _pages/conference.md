@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: archive-no-title
 permalink: conference/
 author_profile: true
 title: Chris Kreucher conference publications

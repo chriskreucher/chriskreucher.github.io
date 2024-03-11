@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: archive-no-title
 permalink: thesis/
 author_profile: true
 title: Chris Kreucher thesis publications

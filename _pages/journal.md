@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: archive-no-title
 permalink: journal/
 author_profile: true
 title: Chris Kreucher journal publications
