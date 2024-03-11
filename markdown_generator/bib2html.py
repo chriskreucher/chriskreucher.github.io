@@ -53,15 +53,15 @@ def populate_header( nm, f, unique_years, unique_types):
 
     f.write('\n<center>')
     if nm in unique_types:
-        f.write('\n<a href="../complete-bibliography/"><button type="button" class="btn" style="background-colorcolor:#000000;color:#5C5C5C;outline:none;border-radius:5px"> all </button></a>')        
+        f.write('\n<a href="../complete-bibliography/"><button type="button" class="btn" style="background-color:#ffffff;color:#000000;outline:none;border-radius:5px"> all </button></a>')        
     else:
-        f.write('\n<a href="../complete-bibliography/"><button type="button" class="button button3" style="color:#000000;background-color:#5C5C5C;outline:none;border-radius:5px"> all </button></a>')
+        f.write('\n<a href="../complete-bibliography/"><button type="button" class="button button3" style="background-color:#5C5C5C;color:#ffffff;outline:none;border-radius:5px"> all </button></a>')
 
     for typ in unique_types:
         if typ == nm:
-            f.write('\n<a href="../' + typ + '/"><button type="button" class="button button3" style="background-color:#000000;color:#5C5C5C;outline:none;border-radius:5px"> ' + typ + '</button></a>')
+            f.write('\n<a href="../' + typ + '/"><button type="button" class="button button3" style="background-color:#ffffff;color:#000000;outline:none;border-radius:5px"> ' + typ + '</button></a>')
         else:
-            f.write('\n<a href="../' + typ + '/"><button type="button" class="btn" style="color:#ffffff;background-color:#000000;outline:none;border-radius:5px"> ' + typ + '</button></a>')
+            f.write('\n<a href="../' + typ + '/"><button type="button" class="btn" style="background-color:#5C5C5C;color:#ffffff;outline:none;border-radius:5px"> ' + typ + '</button></a>')
     f.write('\n</center>')
 
     f.write("\n<br>")
@@ -73,9 +73,9 @@ def populate_header( nm, f, unique_years, unique_types):
             f.write("<br><br>")
             i=0
         if year == nm:
-            f.write('\n<a href="../' + year + '/"><button type="button" class="button button3" style="background-color:#000000;color:#5C5C5C;outline:none;border-radius:5px"> ' + year + '</button></a>')
+            f.write('\n<a href="../' + year + '/"><button type="button" class="button button3" style="background-color:#ffffff;color:#000000;outline:none;border-radius:5px"> ' + year + '</button></a>')
         else:
-            f.write('\n<a href="../' + year + '/"><button type="button" class="btn" style="color:#ffffff;background-color:#000000;outline:none;border-radius:5px"> ' + year + '</button></a>')
+            f.write('\n<a href="../' + year + '/"><button type="button" class="btn" style="background-color:#5C5C5C;color:#ffffff;outline:none;border-radius:5px"> ' + year + '</button></a>')
         i=i+1
     f.write("\n<br><br>")
     f.write('\n</center>')
