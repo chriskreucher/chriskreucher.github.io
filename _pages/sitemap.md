@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: archive-no-title
 title: "Chris Kreucher Sitemap"
 permalink: /sitemap/
 author_profile: true
