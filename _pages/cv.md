@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Curriculum Vitae (CV)"
+title: "Chris Kreucher Curriculum Vitae (CV)"
 permalink: /cv/
 author_profile: true
 ---
