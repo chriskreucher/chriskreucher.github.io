@@ -1,7 +1,7 @@
 ---
 permalink: /
 author_profile: true
-title: "Chris Kreucher's homepage'
+title: "Chris Kreucher's homepage"
 redirect_from: 
   - /about/
   - /about.html
