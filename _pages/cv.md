@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "cv"
+title: "Curriculum Vitae (CV)"
 permalink: /cv/
 author_profile: true
 ---
