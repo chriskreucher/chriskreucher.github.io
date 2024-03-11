@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Sitemap"
+title: "Chris Kreucher Sitemap"
 permalink: /sitemap/
 author_profile: true
 ---
