@@ -2,6 +2,7 @@
 layout: archive
 permalink: /teaching/
 author_profile: true
+name: "Chris Kreucher's teaching"
 ---
 
 {% include base_path %}
