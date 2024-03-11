@@ -7,19 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-<head>
-  
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-GC0NJCF1F1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-GC0NJCF1F1');
-</script>
-
-</head>
 
 I am a Senior Technical Fellow and Analytics & Exploitation Group Lead at [KBR](https://www.kbr.com) (formerly Integrity Applications Incorporated) in Ann Arbor, Michigan. 
 
