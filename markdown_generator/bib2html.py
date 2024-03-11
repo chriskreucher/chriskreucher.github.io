@@ -59,9 +59,9 @@ def populate_header( nm, f, unique_years, unique_types):
 
     for typ in unique_types:
         if typ == nm:
-            f.write('\n<a href="../' + typ + '/"><button type="button" class="btn" style="background-color:#5C5C5C;color:#ffffff;outline:none;border-radius:5px"> ' + typ + '</button></a>')
-        else:
             f.write('\n<a href="../' + typ + '/"><button type="button" class="button button3" style="background-color:#ffffff;color:#000000;outline:none;border-radius:5px"> ' + typ + '</button></a>')
+        else:
+            f.write('\n<a href="../' + typ + '/"><button type="button" class="btn" style="background-color:#5C5C5C;color:#ffffff;outline:none;border-radius:5px"> ' + typ + '</button></a>')
     f.write('\n</center>')
 
     f.write("\n<br>")
