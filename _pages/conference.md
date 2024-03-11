@@ -2,6 +2,7 @@
 layout: archive
 permalink: conference/
 author_profile: true
+title: Chris Kreucher conference publications
 ---
 
 <center>

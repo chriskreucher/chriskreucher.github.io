@@ -2,6 +2,7 @@
 layout: archive
 permalink: complete-bibliography/
 author_profile: true
+title: Chris Kreucher complete-bibliography publications
 ---
 
 <center>

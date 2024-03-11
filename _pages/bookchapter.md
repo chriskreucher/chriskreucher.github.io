@@ -2,6 +2,7 @@
 layout: archive
 permalink: bookchapter/
 author_profile: true
+title: Chris Kreucher bookchapter publications
 ---
 
 <center>

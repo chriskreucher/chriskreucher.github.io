@@ -2,6 +2,7 @@
 layout: archive
 permalink: journal/
 author_profile: true
+title: Chris Kreucher journal publications
 ---
 
 <center>
