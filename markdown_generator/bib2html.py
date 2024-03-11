@@ -47,6 +47,7 @@ def populate_header( nm, f, unique_years, unique_types):
     f.write('\nlayout: archive');
     f.write('\npermalink: ' + str(nm) + '/');
     f.write('\nauthor_profile: true');
+    f.write('\\ntitle: Chris Kreucher %s publications', nm );
     f.write('\n---');
     f.write('\n');
 
