@@ -132,8 +132,9 @@ def main():
     titles = list()
     wwws = list()
     pdfs = list()
-    all_years = list()
+    all_years = list()     
     all_types = list()
+    all_booktitles = list()
 
 
     for bib_id in bibdata.entries:
@@ -195,6 +196,7 @@ def main():
             entries.append( out_string )
             all_years.append(year)
             all_types.append(article_type)
+            all_booktitles.append(booktitle)
 
             if e(mess):
                 print("\n" + str(bib_id) + "  " + mess, end="" );                
@@ -266,6 +268,12 @@ def main():
     list_set = set( all_types )
     unique_types = (list(list_set))
     unique_types.sort()
+
+    list_set = set( all_booktitles )
+    unique_conferences = (list(list_set))
+    unique_conferences.sort()
+    #print('\n\n\n')
+    #print( *unique_conferences, sep = '\n' )
 
 
     # write the entire bibliography
