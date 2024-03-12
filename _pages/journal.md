@@ -72,7 +72,7 @@ title: Chris Kreucher journal publications
 </li>
 <br>
 <li>
- C. Kreucher,  A. Hero,  K. Kastella,  M. Morelande, <b>An Information-Based Approach to Sensor Management in Large Dynamic Networks</b>. <em>Proceedings of the IEEE, Special Issue on Estimation and Control of Large Scale Systems</em>, 95(5): 978-999, May 2007. [<a href = "http://doi.org/10.1109/JPROC.2007.893247">WWW</a>] [<a href="../papers/2007ProcIEEE.pdf">PDF</a>]
+ C. Kreucher,  A. Hero,  K. Kastella,  M. Morelande, <b>An Information-Based Approach to Sensor Management in Large Dynamic Networks</b>. <em>The Proceedings of the IEEE, Special Issue on Estimation and Control of Large Scale Systems</em>, 95(5): 978-999, May 2007. [<a href = "http://doi.org/10.1109/JPROC.2007.893247">WWW</a>] [<a href="../papers/2007ProcIEEE.pdf">PDF</a>]
 </li>
 <br>
 <li>

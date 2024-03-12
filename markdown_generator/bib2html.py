@@ -272,8 +272,8 @@ def main():
     list_set = set( all_booktitles )
     unique_conferences = (list(list_set))
     unique_conferences.sort()
-    #print('\n\n\n')
-    #print( *unique_conferences, sep = '\n' )
+    print('\n\n\n')
+    print( *unique_conferences, sep = '\n' )
 
 
     # write the entire bibliography
