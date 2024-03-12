@@ -236,7 +236,7 @@ title: Chris Kreucher conference publications
 </li>
 <br>
 <li>
- C. Kreucher,  A. Hero,  K. Kastella,  D. Chang, <b>Efficient Methods of Non-myopic Sensor Management for Multitarget Tracking</b>. <em>The Proceedings of the IEEE Conference on Decision and Control</em>,  Pages 722-727, December 14 - 17 2004. [<a href = "http://doi.org/10.1109/CDC.2004.1428735">WWW</a>] [<a href="../papers/2004CDC.pdf">PDF</a>]
+ C. Kreucher,  A. Hero,  K. Kastella,  D. Chang, <b>Efficient Methods of Non-myopic Sensor Management for Multitarget Tracking</b>. <em>The Proceedings of the IEEE Conference on Decision and Control</em>,  Pages 722-727, December 2004. [<a href = "http://doi.org/10.1109/CDC.2004.1428735">WWW</a>] [<a href="../papers/2004CDC.pdf">PDF</a>]
 </li>
 <br>
 <li>
@@ -272,7 +272,7 @@ title: Chris Kreucher conference publications
 </li>
 <br>
 <li>
- S. Musick,  J. Greenwald,  K. Kastella,  C. Kreucher, <b>Comparing Numerical Methods for Nonlinear Tracking Applications</b>. <em>The Proceedings of the Defense Applications of Signal Processing Workshop</em>, September 16 - 20 2001. [<a href="../papers/2001DASP.pdf">PDF</a>]
+ S. Musick,  J. Greenwald,  K. Kastella,  C. Kreucher, <b>Comparing Numerical Methods for Nonlinear Tracking Applications</b>. <em>The Proceedings of the Defense Applications of Signal Processing Workshop</em>, September 2001. [<a href="../papers/2001DASP.pdf">PDF</a>]
 </li>
 <br>
 <li>
