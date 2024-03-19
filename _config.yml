@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 #title                    : "Chris Kreucher's Home Page" 
-title_separator          : "-"
+#title_separator          : "-"
 name                     : &name "Chris Kreucher"
 #description              : &description "Chris Kreucher's Home page"
 url                      : https://chriskreucher.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -26,16 +26,16 @@ author:
   bio              : "PhD, Electrical Engineering, The University of Michigan. KBR Senior Techncial Fellow." #My research interests include multisensor fusion, nonlinear filtering, information theory, multitarget tracking, and sensor management."
   location         : "Ann Arbor, Michigan"
   employer         : "KBR"
-  uri              : # URL
+  uri              : "https://chriskreucher.github.io/"
   email            : "ckreuche@umich.edu" 
 
   # Academic websites
-  arxiv            : # URL - Update with the correct link to your profile
+  arxiv            : # URL
   googlescholar    : "https://scholar.google.com/citations?user=7ZuQXLMAAAAJ"  
   scopus           : "https://www.scopus.com/authid/detail.uri?authorId=6603153842"
   impactstory      : # URL
   orcid            : "https://orcid.org/0000-0002-4455-0835"
-  pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # URL
   researchgate     : # URL
 
   # Repositories and software development
