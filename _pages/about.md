@@ -5,7 +5,6 @@ title: "Chris Kreucher's Homepage"
 redirect_from: 
   - /about/
   - /about.html
-  - /index.html
 ---
 
 <head>
