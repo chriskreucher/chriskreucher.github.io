@@ -50,22 +50,3 @@ Selected Awards and Honors
 * Recipient of April 2009 IAI Above and Beyond Award given to a team that wrote a winning proposal for “new radar concepts based on compressed sensing, tracking, and target modeling”.
 * GD-AIS Paper Medal Award Winner 2003, 2005, 2006 for papers “Multi-target Sensor Management Using Alpha Divergence Measures” (2003), “Multitarget Tracking using the Joint Multitarget Probability Density” (2005), and “Adaptive Multi-modality Sensor Scheduling for Detection and Tracking of Smart Targets” (2006).
 * Veridian Medal Paper Award Winner 2000, 2002 for papers “Nonlinear Filtering for Ground Target Applications” (2000), and “Multiple model nonlinear filtering for low signal ground target applications” (2002).
-
-
-<!-- Default Statcounter code for Chris' github homepage
-https://chriskreucher.github.io/ -->
-<script type="text/javascript">
-var sc_project=12980316; 
-var sc_invisible=1; 
-var sc_security="f53903e4"; 
-</script>
-<script type="text/javascript"
-src="https://www.statcounter.com/counter/counter.js"
-async></script>
-<noscript><div class="statcounter"><a title="Web Analytics"
-href="https://statcounter.com/" target="_blank"><img
-class="statcounter"
-src="https://c.statcounter.com/12980316/0/f53903e4/1/"
-alt="Web Analytics"
-referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
-<!-- End of Statcounter Code -->
