@@ -48,11 +48,11 @@ title: Chris Kreucher complete-bibliography publications
 </li>
 <br>
 <li>
- A. Charlish,  F. Hofmann,  K. Bell,  C. Kreucher, <b>Stochastic Optimization for Cognitive Radar</b>. K. Mishra,  M. Rangaswamy,  B. Shankar, editors, <em>Next Generation Cognitive Radar Systems</em>, Chapter 10, Pages 313-343. IET Press, December 2023. [<a href = "http://doi.org/10.1049/SBRA552E_ch10">WWW</a>] [<a href="../papers/2023IET_Charlish_preprint.pdf">PDF</a>]
+ A. Charlish,  F. Hofmann,  K. Bell,  C. Kreucher, <b>Stochastic Control for Cognitive Radar</b>. K. Mishra,  M. Rangaswamy,  B. Shankar, editors, <em>Next Generation Cognitive Radar Systems</em>, Chapter 10, Pages 313-343. IET Press, December 2023. [<a href = "http://doi.org/10.1049/SBRA552E_ch10">WWW</a>] [<a href="../papers/2023IET_Charlish_preprint.pdf">PDF</a>]
 </li>
 <br>
 <li>
- C. Kreucher, <b>SAR-ATR Using EO-based Deep Networks</b>. <em>The Proceedings of the IEEE Radar Conference</em>,  Pages 1-5, May 2023. [<a href = "http://doi.org/10.1109/RadarConf2351548.2023.10149584">WWW</a>] [<a href="../papers/2023RadarCon_official.pdf">PDF</a>]
+ C. Kreucher, <b>SAR-ATR Using EO-based Deep Networks</b>. <em>The Proceedings of the IEEE Radar Conference</em>,  Pages 1-5, May 2023. [<a href = "http://doi.org/10.1109/RadarConf2351548.2023.10149584">WWW</a>] [<a href="../papers/2023IEEE_RadarCon.pdf">PDF</a>]
 </li>
 <br>
 <li>
@@ -152,7 +152,7 @@ title: Chris Kreucher complete-bibliography publications
 </li>
 <br>
 <li>
- C. Kreucher,  B. Himed, <b>Multiple Target Tracking Using a Narrowband RF Sensor Array</b>. <em>The Proceddings of the The IEEE Sensor Array and Multichannel Signal Processing Workshop</em>,  Pages 145-148, June 2012. [<a href = "http://doi.org/10.1109/SAM.2012.6250451">WWW</a>] [<a href="../papers/2012SAM.pdf">PDF</a>]
+ C. Kreucher,  B. Himed, <b>Multiple Target Tracking Using a Narrowband RF Sensor Array</b>. <em>The Proceddings of the IEEE Sensor Array and Multichannel Signal Processing Workshop</em>,  Pages 145-148, June 2012. [<a href = "http://doi.org/10.1109/SAM.2012.6250451">WWW</a>] [<a href="../papers/2012SAM.pdf">PDF</a>]
 </li>
 <br>
 <li>
