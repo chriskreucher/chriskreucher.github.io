@@ -60,7 +60,7 @@ title: Chris Kreucher complete-bibliography publications
 </li>
 <br>
 <li>
- B. Raeker,  T. Hill,  C. Kreucher,  K. Banas,  K. Tactac,  K. Simpson,  K. Weeks, <b>Improving SAR ATR using synthetic data via transfer learning</b>. <em>The Proceedings of SPIE Defense and Commercial Sensing Conference</em>, May 2023. [<a href = "http://dx.doi.org/10.1117/12.2663615">WWW</a>] [<a href="../papers/2023SPIE_Raeker.pdf">PDF</a>]
+ B. Raeker,  T. Hill,  C. Kreucher,  K. Banas,  K. Tactac,  K. Simpson,  K. Weeks, <b>Improving SAR ATR Using Synthetic Data via Transfer Learning</b>. <em>The Proceedings of SPIE Defense and Commercial Sensing Conference</em>, May 2023. [<a href = "http://dx.doi.org/10.1117/12.2663615">WWW</a>] [<a href="../papers/2023SPIE_Raeker.pdf">PDF</a>]
 </li>
 <br>
 <li>
