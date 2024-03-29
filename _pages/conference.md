@@ -300,11 +300,11 @@ title: Chris Kreucher conference publications
 </li>
 <br>
 <li>
- C. Kreucher,  S. Lakshmanan, <b>Shape Inference From Compressed Images</b>. <em>The Proceedings of the IEEE Workshop on Detection, Estimation, Classification and Imaging</em>, February 1999. [<a href = "http://www.ifp.illinois.edu/itw-deci/final_program.html">WWW</a>] [<a href="../papers/1999DECI.pdf">PDF</a>]
+ C. Kreucher,  S. Lakshmanan, <b>Shape Inference From Compressed Images</b>. <em>The Proceedings of the IEEE Workshop on Detection, Estimation, Classification and Imaging</em>, February 1999. [<a href = "http://https://web.archive.org/web/20221209172043/www.ifp.illinois.edu/itw-deci/">WWW</a>] [<a href="../papers/1999DECI.pdf">PDF</a>]
 </li>
 <br>
 <li>
- C. Kreucher,  S. Lakshmanan, <b>A Tool for Query and Analysis of MPEG Encoded Video</b>. <em>The Proceedings of the International Workshop on Very Low Bitrate Video Coding</em>,  Pages 57-60, October 1998. [<a href = "http://www.ifp.illinois.edu/vlbv98/list.html">WWW</a>] [<a href="../papers/1998VLBV.pdf">PDF</a>]
+ C. Kreucher,  S. Lakshmanan, <b>A Tool for Query and Analysis of MPEG Encoded Video</b>. <em>The Proceedings of the International Workshop on Very Low Bitrate Video Coding</em>,  Pages 57-60, October 1998. [<a href = "http://https://web.archive.org/web/20220816080719/http://www.ifp.illinois.edu/vlbv98/list.html">WWW</a>] [<a href="../papers/1998VLBV.pdf">PDF</a>]
 </li>
 <br>
 <li>
