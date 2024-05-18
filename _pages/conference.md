@@ -14,6 +14,7 @@ title: Chris Kreucher conference publications
 </center>
 <br>
 <center>
+<a href="../2024/"><button type="button" class="btn" style="background-color:#5C5C5C;color:#ffffff;outline:none;border-radius:5px"> 2024</button></a>
 <a href="../2023/"><button type="button" class="btn" style="background-color:#5C5C5C;color:#ffffff;outline:none;border-radius:5px"> 2023</button></a>
 <a href="../2022/"><button type="button" class="btn" style="background-color:#5C5C5C;color:#ffffff;outline:none;border-radius:5px"> 2022</button></a>
 <a href="../2021/"><button type="button" class="btn" style="background-color:#5C5C5C;color:#ffffff;outline:none;border-radius:5px"> 2021</button></a>
@@ -21,8 +22,8 @@ title: Chris Kreucher conference publications
 <a href="../2019/"><button type="button" class="btn" style="background-color:#5C5C5C;color:#ffffff;outline:none;border-radius:5px"> 2019</button></a>
 <a href="../2018/"><button type="button" class="btn" style="background-color:#5C5C5C;color:#ffffff;outline:none;border-radius:5px"> 2018</button></a>
 <a href="../2017/"><button type="button" class="btn" style="background-color:#5C5C5C;color:#ffffff;outline:none;border-radius:5px"> 2017</button></a>
-<a href="../2016/"><button type="button" class="btn" style="background-color:#5C5C5C;color:#ffffff;outline:none;border-radius:5px"> 2016</button></a>
-<a href="../2015/"><button type="button" class="btn" style="background-color:#5C5C5C;color:#ffffff;outline:none;border-radius:5px"> 2015</button></a><br><br>
+<a href="../2016/"><button type="button" class="btn" style="background-color:#5C5C5C;color:#ffffff;outline:none;border-radius:5px"> 2016</button></a><br><br>
+<a href="../2015/"><button type="button" class="btn" style="background-color:#5C5C5C;color:#ffffff;outline:none;border-radius:5px"> 2015</button></a>
 <a href="../2014/"><button type="button" class="btn" style="background-color:#5C5C5C;color:#ffffff;outline:none;border-radius:5px"> 2014</button></a>
 <a href="../2013/"><button type="button" class="btn" style="background-color:#5C5C5C;color:#ffffff;outline:none;border-radius:5px"> 2013</button></a>
 <a href="../2012/"><button type="button" class="btn" style="background-color:#5C5C5C;color:#ffffff;outline:none;border-radius:5px"> 2012</button></a>
@@ -30,8 +31,8 @@ title: Chris Kreucher conference publications
 <a href="../2010/"><button type="button" class="btn" style="background-color:#5C5C5C;color:#ffffff;outline:none;border-radius:5px"> 2010</button></a>
 <a href="../2009/"><button type="button" class="btn" style="background-color:#5C5C5C;color:#ffffff;outline:none;border-radius:5px"> 2009</button></a>
 <a href="../2008/"><button type="button" class="btn" style="background-color:#5C5C5C;color:#ffffff;outline:none;border-radius:5px"> 2008</button></a>
-<a href="../2007/"><button type="button" class="btn" style="background-color:#5C5C5C;color:#ffffff;outline:none;border-radius:5px"> 2007</button></a>
-<a href="../2006/"><button type="button" class="btn" style="background-color:#5C5C5C;color:#ffffff;outline:none;border-radius:5px"> 2006</button></a><br><br>
+<a href="../2007/"><button type="button" class="btn" style="background-color:#5C5C5C;color:#ffffff;outline:none;border-radius:5px"> 2007</button></a><br><br>
+<a href="../2006/"><button type="button" class="btn" style="background-color:#5C5C5C;color:#ffffff;outline:none;border-radius:5px"> 2006</button></a>
 <a href="../2005/"><button type="button" class="btn" style="background-color:#5C5C5C;color:#ffffff;outline:none;border-radius:5px"> 2005</button></a>
 <a href="../2004/"><button type="button" class="btn" style="background-color:#5C5C5C;color:#ffffff;outline:none;border-radius:5px"> 2004</button></a>
 <a href="../2003/"><button type="button" class="btn" style="background-color:#5C5C5C;color:#ffffff;outline:none;border-radius:5px"> 2003</button></a>
@@ -43,6 +44,10 @@ title: Chris Kreucher conference publications
 <br><br>
 </center><font size="-0.5">
 <ol id = "reverse_numbering">
+<li>
+ K. Banas,  C. Kreucher, <b>A Multi-view CNN for SAR ATR</b>. <em>The Proceedings of the IEEE Radar Conference</em>, May 2024. [<a href="../papers/2024IEEE_Radarcon.pdf">PDF</a>]
+</li>
+<br>
 <li>
  C. Kreucher, <b>SAR-ATR Using EO-based Deep Networks</b>. <em>The Proceedings of the IEEE Radar Conference</em>,  Pages 1-5, May 2023. [<a href = "http://doi.org/10.1109/RadarConf2351548.2023.10149584">WWW</a>] [<a href="../papers/2023IEEE_Radarcon.pdf">PDF</a>]
 </li>
