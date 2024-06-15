@@ -49,6 +49,10 @@ title: Chris Kreucher complete-bibliography publications
 </li>
 <br>
 <li>
+ C. Kreucher,  K. Banas,  M. Kosek,  B. Raeker, <b>A Multiview Approach for Moving Target SAR ATR</b>. <em>The Proceedings of the MSS Tri-Service Radar Conference</em>, June 2024. 
+</li>
+<br>
+<li>
  K. Bell,  C. Kreucher,  A. Brandwie,  J. Johnson, <b>Fully Adaptive Radar Resource Allocation for Tracking and Classification</b>. K. Mishra,  M. Rangaswamy,  B. Shankar, editors, <em>Next Generation Cognitive Radar Systems</em>, Chapter 9, Pages 277-312. IET Press, December 2023. [<a href = "http://doi.org/10.1049/SBRA552E_ch9">WWW</a>] [<a href="../papers/2023IET_Bell_preprint.pdf">PDF</a>]
 </li>
 <br>

@@ -1,5 +1,5 @@
 ---
-paper_title : " K. Banas,  T. Hill,  C. Kreucher,  B. Raeker,  K. Simpson,  K. Weeks, <b>Novel View Synthesis with Compressed Sensing as Data Augmentation for SAR ATR</b>. <em>The Proceedings of SPIE Defense and Commercial Sensing Conference</em>, May 2023. "
-pdf_link : "../papers/2023SPIE_Banas.pdf"
-www_link : "http://dx.doi.org/10.1117/12.2664250"
+paper_title : " C. Kreucher, <b>SAR-ATR Using EO-based Deep Networks</b>. <em>The Proceedings of the IEEE Radar Conference</em>,  Pages 1-5, May 2023. "
+pdf_link : "../papers/2023IEEE_Radarcon.pdf"
+www_link : "http://doi.org/10.1109/RadarConf2351548.2023.10149584"
 ---
