@@ -14,22 +14,26 @@ title: Chris Kreucher conference publications
 </center>
 <br>
 <center>
+<a href="../2023/"><button type="button" class="btn" style="background-color:#5C5C5C;color:#ffffff;outline:none;border-radius:5px"> 2023</button></a>
+<a href="../2022/"><button type="button" class="btn" style="background-color:#5C5C5C;color:#ffffff;outline:none;border-radius:5px"> 2022</button></a>
+<a href="../2021/"><button type="button" class="btn" style="background-color:#5C5C5C;color:#ffffff;outline:none;border-radius:5px"> 2021</button></a>
+<a href="../2020/"><button type="button" class="btn" style="background-color:#5C5C5C;color:#ffffff;outline:none;border-radius:5px"> 2020</button></a>
 <a href="../2019/"><button type="button" class="btn" style="background-color:#5C5C5C;color:#ffffff;outline:none;border-radius:5px"> 2019</button></a>
 <a href="../2018/"><button type="button" class="btn" style="background-color:#5C5C5C;color:#ffffff;outline:none;border-radius:5px"> 2018</button></a>
 <a href="../2017/"><button type="button" class="btn" style="background-color:#5C5C5C;color:#ffffff;outline:none;border-radius:5px"> 2017</button></a>
 <a href="../2016/"><button type="button" class="btn" style="background-color:#5C5C5C;color:#ffffff;outline:none;border-radius:5px"> 2016</button></a>
-<a href="../2015/"><button type="button" class="btn" style="background-color:#5C5C5C;color:#ffffff;outline:none;border-radius:5px"> 2015</button></a>
+<a href="../2015/"><button type="button" class="btn" style="background-color:#5C5C5C;color:#ffffff;outline:none;border-radius:5px"> 2015</button></a><br><br>
 <a href="../2014/"><button type="button" class="btn" style="background-color:#5C5C5C;color:#ffffff;outline:none;border-radius:5px"> 2014</button></a>
 <a href="../2013/"><button type="button" class="btn" style="background-color:#5C5C5C;color:#ffffff;outline:none;border-radius:5px"> 2013</button></a>
-<a href="../2012/"><button type="button" class="btn" style="background-color:#5C5C5C;color:#ffffff;outline:none;border-radius:5px"> 2012</button></a><br><br>
+<a href="../2012/"><button type="button" class="btn" style="background-color:#5C5C5C;color:#ffffff;outline:none;border-radius:5px"> 2012</button></a>
 <a href="../2011/"><button type="button" class="btn" style="background-color:#5C5C5C;color:#ffffff;outline:none;border-radius:5px"> 2011</button></a>
 <a href="../2010/"><button type="button" class="btn" style="background-color:#5C5C5C;color:#ffffff;outline:none;border-radius:5px"> 2010</button></a>
 <a href="../2009/"><button type="button" class="btn" style="background-color:#5C5C5C;color:#ffffff;outline:none;border-radius:5px"> 2009</button></a>
 <a href="../2008/"><button type="button" class="btn" style="background-color:#5C5C5C;color:#ffffff;outline:none;border-radius:5px"> 2008</button></a>
 <a href="../2007/"><button type="button" class="btn" style="background-color:#5C5C5C;color:#ffffff;outline:none;border-radius:5px"> 2007</button></a>
-<a href="../2006/"><button type="button" class="btn" style="background-color:#5C5C5C;color:#ffffff;outline:none;border-radius:5px"> 2006</button></a>
+<a href="../2006/"><button type="button" class="btn" style="background-color:#5C5C5C;color:#ffffff;outline:none;border-radius:5px"> 2006</button></a><br><br>
 <a href="../2005/"><button type="button" class="btn" style="background-color:#5C5C5C;color:#ffffff;outline:none;border-radius:5px"> 2005</button></a>
-<a href="../2004/"><button type="button" class="btn" style="background-color:#5C5C5C;color:#ffffff;outline:none;border-radius:5px"> 2004</button></a><br><br>
+<a href="../2004/"><button type="button" class="btn" style="background-color:#5C5C5C;color:#ffffff;outline:none;border-radius:5px"> 2004</button></a>
 <a href="../2003/"><button type="button" class="btn" style="background-color:#5C5C5C;color:#ffffff;outline:none;border-radius:5px"> 2003</button></a>
 <a href="../2001/"><button type="button" class="btn" style="background-color:#5C5C5C;color:#ffffff;outline:none;border-radius:5px"> 2001</button></a>
 <a href="../2000/"><button type="button" class="btn" style="background-color:#5C5C5C;color:#ffffff;outline:none;border-radius:5px"> 2000</button></a>
@@ -39,6 +43,34 @@ title: Chris Kreucher conference publications
 <br><br>
 </center><font size="-0.5">
 <ol id = "reverse_numbering">
+<li>
+ C. Kreucher, <b>SAR-ATR Using EO-based Deep Networks</b>. <em>The Proceedings of the IEEE Radar Conference</em>,  Pages 1-5, May 2023. [<a href = "http://doi.org/10.1109/RadarConf2351548.2023.10149584">WWW</a>] [<a href="../papers/2023IEEE_Radarcon.pdf">PDF</a>]
+</li>
+<br>
+<li>
+ K. Banas,  T. Hill,  C. Kreucher,  B. Raeker,  K. Simpson,  K. Weeks, <b>Novel View Synthesis with Compressed Sensing as Data Augmentation for SAR ATR</b>. <em>The Proceedings of SPIE Defense and Commercial Sensing Conference</em>, May 2023. [<a href = "http://dx.doi.org/10.1117/12.2664250">WWW</a>] [<a href="../papers/2023SPIE_Banas.pdf">PDF</a>]
+</li>
+<br>
+<li>
+ B. Raeker,  T. Hill,  C. Kreucher,  K. Banas,  K. Tactac,  K. Simpson,  K. Weeks, <b>Improving SAR ATR Using Synthetic Data via Transfer Learning</b>. <em>The Proceedings of SPIE Defense and Commercial Sensing Conference</em>, May 2023. [<a href = "http://dx.doi.org/10.1117/12.2663615">WWW</a>] [<a href="../papers/2023SPIE_Raeker.pdf">PDF</a>]
+</li>
+<br>
+<li>
+ K. Bell,  C. Kreucher,  M. Rangaswamy, <b>An Evaluation of Task and Information Driven Approaches for Radar Resource Allocation</b>. <em>The Proceedings of the IEEE Radar Conference</em>,  Pages 1-6, May 2021. [<a href = "http://doi.org/10.1109/RadarConf2147009.2021.9455168">WWW</a>] [<a href="../papers/2021IEEE_RadarCon.pdf">PDF</a>]
+</li>
+<br>
+<li>
+ M. Masarik,  C. Kreucher,  M. Wilmanski,  K. Simpson,  K. Weeks, <b>A Hybrid Template / Deep Learning Approach to SAR ATR</b>. <em>The Proceedings of the MSS National Fire Control Symposium</em>, February 2020. 
+</li>
+<br>
+<li>
+ A. Charlish,  K. Bell,  C. Kreucher, <b>Implementing Perception-Action Cycles Using Stochastic Optimization</b>. <em>The Proceedings of the IEEE Radar Conference</em>,  Pages 1-6, September 2020. [<a href = "http://doi.org/10.1109/RadarConf2043947.2020.9266338">WWW</a>] [<a href="../papers/2020IEEE_RadarCon.pdf">PDF</a>]
+</li>
+<br>
+<li>
+ M. Masarik,  J. Valenzuela,  C. Kreucher, <b>An Information Theoretic Approach to Flight Path Planning</b>. <em>The Proceedings of the MSS National Fire Control Symposium</em>, February 2020. 
+</li>
+<br>
 <li>
  C. Kreucher,  M. Masarik,  J. Valenzuela,  R. Malinas, <b>An Information Theoretic Radar Tracker Performance Model</b>. <em>The Proceedings of the IEEE Radar Conference</em>,  Pages 1-5, April 2019. [<a href = "http://doi.org/10.1109/RADAR.2019.8835682">WWW</a>] [<a href="../papers/2019IEEE_RadarCon.pdf">PDF</a>]
 </li>

@@ -1,5 +1,5 @@
 ---
-paper_title : " S. Anderson,  P. Bierdz,  K. Bell,  C. Kreucher,  D. Sobota, <b>Motion Model Validation and Analysis for Supermaneuverable Targets</b>. <em>The Proceedings of the MSS Tri-Service Radar Conference</em>, June 2018. "
-pdf_link : ""
-www_link : "http://"
+paper_title : " K. Banas,  T. Hill,  C. Kreucher,  B. Raeker,  K. Simpson,  K. Weeks, <b>Novel View Synthesis with Compressed Sensing as Data Augmentation for SAR ATR</b>. <em>The Proceedings of SPIE Defense and Commercial Sensing Conference</em>, May 2023. "
+pdf_link : "../papers/2023SPIE_Banas.pdf"
+www_link : "http://dx.doi.org/10.1117/12.2664250"
 ---
