@@ -123,10 +123,13 @@ def populate_footer( f ):
 
 def main():
 
+    print(" HERE 1");
     fname = 'markdown_generator/kreucher.bib';
+    print(" HERE 1");
     parser = bibtex.Parser()
+    print(" HERE 1");
     bibdata = parser.parse_file(fname)
-
+    print(" HERE 1");
 
     entries = list()
     titles = list()
