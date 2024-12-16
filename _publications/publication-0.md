@@ -1,5 +1,5 @@
 ---
-paper_title : " K. Bell,  C. Kreucher,  A. Brandwie,  J. Johnson, <b>Fully Adaptive Radar Resource Allocation for Tracking and Classification</b>. K. Mishra,  M. Rangaswamy,  B. Shankar, editors, <em>Next Generation Cognitive Radar Systems</em>, Chapter 9, Pages 277-312. IET Press, December 2023. "
-pdf_link : "../papers/2023IET_Bell_preprint.pdf"
-www_link : "http://doi.org/10.1049/SBRA552E_ch9"
+paper_title : " K. Banas,  C. Kreucher, <b>A Multi-view CNN for SAR ATR xxx</b>. <em>The Proceedings of the IEEE Radar Conference</em>,  Pages 1-6, May 2024. "
+pdf_link : "../papers/2024IEEE_RadarCon.pdf"
+www_link : "http://10.1109/RadarConf2458775.2024.10548376"
 ---
