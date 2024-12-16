@@ -1,5 +1,5 @@
 ---
-paper_title : " K. Banas,  C. Kreucher, <b>A Multi-view CNN for SAR ATR</b>. <em>The Proceedings of the IEEE Radar Conference</em>,  Pages 1-6, May 2024. "
-pdf_link : "../papers/2024IEEE_RadarCon.pdf"
-www_link : "http://10.1109/RadarConf2458775.2024.10548376"
+paper_title : " M. Beauvais,  R. De{F}auw,  C. Kreucher,  S. Lakshmanan, <b>MOSFET: The Michigan Off-Road Sensor Fusing Experimental Testbed</b>. <em>The 1997 AUVSI Intelligent Ground Vehicle Competition</em>, June 1997. "
+pdf_link : "../papers/1997AUVSI.pdf"
+www_link : "http://"
 ---
