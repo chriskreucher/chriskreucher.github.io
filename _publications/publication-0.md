@@ -1,5 +1,5 @@
 ---
-paper_title : " K. Banas,  C. Kreucher, <b>A Multi-view CNN for SAR ATR xxx</b>. <em>The Proceedings of the IEEE Radar Conference</em>,  Pages 1-6, May 2024. "
-pdf_link : "../papers/2024IEEE_RadarCon.pdf"
-www_link : "http://10.1109/RadarConf2458775.2024.10548376"
+paper_title : " K. Bell,  C. Kreucher,  M. Rangaswamy, <b>Information-Theoretic Approach to Fully Adaptive Radar Resource Management</b>. Y. Gu,  Y. Zhang, editors, <em>Information-Theoretic Radar Signal Processing</em>, Chapter 12, Pages 347-374. Wiley, November 2024. "
+pdf_link : "../papers/2024Wiley_preprint.pdf"
+www_link : "http://https://www.wiley.com/en-us/Information-Theoretic+Radar+Signal+Processing-p-9781394216949"
 ---

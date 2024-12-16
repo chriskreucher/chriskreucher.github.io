@@ -45,6 +45,10 @@ title: Chris Kreucher bookchapter publications
 </center><font size="-0.5">
 <ol id = "reverse_numbering">
 <li>
+ K. Bell,  C. Kreucher,  M. Rangaswamy, <b>Information-Theoretic Approach to Fully Adaptive Radar Resource Management</b>. Y. Gu,  Y. Zhang, editors, <em>Information-Theoretic Radar Signal Processing</em>, Chapter 12, Pages 347-374. Wiley, November 2024. [<a href = "http://https://www.wiley.com/en-us/Information-Theoretic+Radar+Signal+Processing-p-9781394216949">WWW</a>] [<a href="../papers/2024Wiley_preprint.pdf">PDF</a>]
+</li>
+<br>
+<li>
  K. Bell,  C. Kreucher,  A. Brandwie,  J. Johnson, <b>Fully Adaptive Radar Resource Allocation for Tracking and Classification</b>. K. Mishra,  M. Rangaswamy,  B. Shankar, editors, <em>Next Generation Cognitive Radar Systems</em>, Chapter 9, Pages 277-312. IET Press, December 2023. [<a href = "http://doi.org/10.1049/SBRA552E_ch9">WWW</a>] [<a href="../papers/2023IET_Bell_preprint.pdf">PDF</a>]
 </li>
 <br>
