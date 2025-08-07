@@ -40,7 +40,7 @@ referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
 
 </head>
 
-I am a Senior Technical Fellow and Analytics & Exploitation Group Lead at [KBR](https://www.kbr.com) (formerly Integrity Applications Incorporated) in Ann Arbor, Michigan. 
+I am a Senior Technical Fellow and Analytics & Exploitation Group Lead at [KBR](https://www.kbr.com) (formerly Integrity Applications Incorporated) in Ann Arbor, Michigan.  
 
 This site includes a a complete list of [publications](https://chriskreucher.github.io//complete-bibliography/) and my [CV](https://chriskreucher.github.io//cv/).
 
