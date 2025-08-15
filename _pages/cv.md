@@ -39,11 +39,11 @@ Recent Publications
 
 Selected Awards and Honors
 ==========================
-* Named to IMPACT board of Advisors, 2023
+* Named to KBR's IMPACT Board of Advisors, 2023
 * Named to Inaugural Class of [ONE KBR Technical Fellows](https://www.kbr.com/en/who-we-are/our-people/technical-fellows), 2021
 * Named Centauri Technical Fellow, 2019 
 * Centauri Gold Medal Paper Award, 2020 for paper “SAR-ATR Using Only Synthetic Training Data”. 
-* KBR (Centauri, IAI) Technical Journal Paper Selections 2011-2023 for papers on information theory, machine learning, ATR, detection, tracking, and imaging.
+* KBR (Centauri, IAI) [Technical Journal](https://techjournal.kbr.com/) Paper Selections 2011-2025 for papers on information theory, machine learning, ATR, detection, tracking, and imaging.
 * Recipient of August 2013 IAI Commendation for leading efforts “to obtain and process classified data resulting in IAI being ahead of schedule on our very challenging set of technical requirements”
 * Winner of MITRE’s 2010 Ronald Fante Best Paper Awards for paper “PDF Target Detection and Tracking” (Joint paper with R. Bethel of MITRE).
 * Recipient of November 2009 IAI Above and Beyond Award for “conceiving, prototyping, and demonstrating and innovative solution to a Spacecraft Anomaly”.
