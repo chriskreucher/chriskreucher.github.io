@@ -34,7 +34,11 @@ Recent Publications
 ============
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}
+
+  [Complete list of publications](../pages/complete-bibliography.md)
+  
+  </ul>
 
 
 Selected Awards and Honors
