@@ -36,7 +36,7 @@ Recent Publications
     {% include archive-single-cv.html %}
   {% endfor %}
 
-  [Complete list of publications](../pages/complete-bibliography.md)
+  \item [Complete list of publications](../complete-bibliography/)
   
   </ul>
 
