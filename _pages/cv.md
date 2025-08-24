@@ -1,4 +1,4 @@
----
+ ---
 layout: archive
 title: "Chris Kreucher Curriculum Vitae (CV)"
 permalink: /cv/
@@ -34,14 +34,10 @@ Recent Publications
 ============
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
-  {% endfor %}
-
-  \item [Complete list of publications](complete-bibliography.md)
-  \item [Complete list of publications](complete-bibliography)
-  \item [Complete list of publications](./complete-bibliography.md)
-  
+  {% endfor %}  
   </ul>
 
+{% include site.pages.complete-bibliography}
 
 Selected Awards and Honors
 ==========================
