@@ -37,7 +37,7 @@ Recent Publications
   {% endfor %}  
   </ul>
 
-{% include site.pages.complete-bibliography}
+{% include site.pages.complete-bibliography.md}
 
 Selected Awards and Honors
 ==========================
