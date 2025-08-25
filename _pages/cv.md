@@ -18,7 +18,7 @@ Education
 
 Work experience
 ===============
-* 2008-Present: [KBR](https://kbr.com) (formerly Integrity Applications Incorporated)
+* 2008-Present: [KBR](https://kbr.com) (formerly Integrity Applications Incorporated) 
   * _Senior Scientist_: I fill PI, PM and capture roles for detection, tracking, classification, fusion and AI/ML research efforts from DoD/IC components including DARPA, AFRL, NGA-R and other USG
   * _Senior Techncial Fellow_: I am responsible for directing activities that will advance the state of the art, anticipating customer needs, assisting in internal funding decisions, and fostering internal techncial excellence through mentoring and recruiting
   * _Group Lead_: I manage a mid-size team of PhDs, including program assignment, mentoring, and performance evaluation
