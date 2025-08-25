@@ -38,6 +38,9 @@ Recent Publications
   </ul>
 
 
+{% include https://chriskreucher.github.io//complete-bibliography/ %}
+
+
 Selected Awards and Honors
 ==========================
 * **KBR Techncial Journal Selections** 2021, 2022, [2023](https://kbr.foleon.com/kbr-tech-journal/2023/), [2024](https://techjournal.kbr.com/), [2025](https://techjournal.kbr.com/), for papers "An Evaluation of Task and Information Driven Approaches for Radar Resource Allocation" (2021), "Implementing Perception-Action Cycles Using Stochastic Optimization" (2021), "Improving Synthetic Aperture Radar (SAR) Automatic Target Recognition (ATR) Using Synthetic Data via Transfer Learning" (2023), and "A Multi-view CNN for SAR ATR" (2025).
