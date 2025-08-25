@@ -38,7 +38,7 @@ Recent Publications
   </ul>
 
 
-{% include https://chriskreucher.github.io//complete-bibliography/ %}
+[test](https://chriskreucher.github.io//complete-bibliography/)
 
 
 Selected Awards and Honors
