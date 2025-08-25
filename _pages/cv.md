@@ -33,7 +33,7 @@ Work experience
 Recent Publications
 ============
   <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
+    {% include archive-single-cv.html %} 
   {% endfor %}  
   </ul>
 
