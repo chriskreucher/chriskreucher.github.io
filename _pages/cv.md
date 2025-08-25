@@ -1,4 +1,4 @@
- ---
+---
 layout: archive
 title: "Chris Kreucher Curriculum Vitae (CV)"
 permalink: /cv/
