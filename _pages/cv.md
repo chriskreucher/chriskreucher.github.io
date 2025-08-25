@@ -29,17 +29,6 @@ Work experience
 * 1998-2002: The University of Michigan
   * _Adjunct Lecturer_, Dearborn Campus : Taught ECE 500 (Graduate-level Mathematical Methods for Electrical Engineers); ECE 210 (Circuits I); ECE 273 (Digital Logic Design); ECE 460 and ME 442 (Control Systems Analysis and Design)  
 
-  
-Recent Publications
-============
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %} 
-  {% endfor %}  
-  </ul>
-
-
-[test](https://chriskreucher.github.io//complete-bibliography/)
-
 
 Selected Awards and Honors
 ==========================
@@ -56,3 +45,14 @@ Selected Awards and Honors
 * Winner of MITRE’s 2010 Ronald Fante Best Paper Awards for paper “PDF Target Detection and Tracking” (Joint paper with R. Bethel of MITRE).
 * Recipient of November 2009 IAI Above and Beyond Award for “conceiving, prototyping, and demonstrating and innovative solution to a Spacecraft Anomaly”.
 * Recipient of April 2009 IAI Above and Beyond Award given to a team that wrote a winning proposal for “new radar concepts based on compressed sensing, tracking, and target modeling”.
+
+  
+Recent Publications
+============
+  <ul>{% for post in site.publications %}
+    {% include archive-single-cv.html %} 
+  {% endfor %}  
+  </ul>
+
+
+- [All Publications](https://chriskreucher.github.io//complete-bibliography/)
